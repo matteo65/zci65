@@ -49,11 +49,9 @@ public class Zci65decryptInputStream extends FilterInputStream {
 	
 	@Override
 	public int read() throws IOException {
-        int ret = in.read();
-        if(ret != -1) {
-        	ret = zci65.decipher(ret);
-        }
-        return ret;
+        	int ret = in.read();
+       		if(ret != -1) ret = zci65.decipher(ret);
+        	return ret;
 	}
 	
 	@Override
@@ -61,14 +59,12 @@ public class Zci65decryptInputStream extends FilterInputStream {
 		return read(buf, 0, buf.length);
 	}
 	
-    @Override
+    	@Override
 	public int read(byte buf[], int off, int len) throws IOException {
-        int ret = in.read(buf, off, len);
-        if(ret > 0) {
-        	zci65.decipher(buf, off, ret);
-        }
-        return ret;
-    }
+        	int ret = in.read(buf, off, len);
+        	if(ret > 0) zci65.decipher(buf, off, ret);
+        	return ret;
+   	 }
 	
 	@Override
 	public synchronized void mark(int readlimit) {
