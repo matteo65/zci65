@@ -22,4 +22,5 @@ public byte decipher(byte b) {
 	return (byte)r;
 }
 ```
-
+## The output stream produced by the encryption operation has a uniformly random distribution
+It produc
