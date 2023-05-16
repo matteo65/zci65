@@ -23,4 +23,6 @@ public byte decipher(byte b) {
 }
 ```
 ### The output stream produced by the encryption operation has a uniformly random distribution
-It produc
+To compare the quality of the random distribution of the output, the encryption output streams of two algorithms were analyzed and compared: Salsa20 and SecRnd (a simple, but slow algorithm that generates a secure random sequence based on SHA-256 which puts exclusive with the input stream)
+
+
