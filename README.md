@@ -24,6 +24,8 @@ public byte decipher(byte b) {
 ```
 The main properties of a good encryption algorithm are: 1) Produce an output indistinguishable from a random sequence of bytes 2) Do it in the shortest possible time (and this is especially true for a stream cipher) 3) Make it impossible to predict the output sequence starting from the data already produced.
 
+Il punto 1) può essere verificato con delle analisi statistiche; il punto 2) misurando i tempi e confrontandoli con valori di benchmark, mentre il punto 3) può essere verificato solo da un'analisi crittografica indipendente e quindi invito i ricercatori a considerare zci65 e confermare o smentire questo punto
+
 Zci65
 
 ### The output stream produced by the encryption has a uniformly random distribution
