@@ -28,9 +28,9 @@ The main properties of a good encryption algorithm are:
 2. Do it in the shortest possible time (and this is especially true for a stream cipher) 
 3. Make it impossible to predict the output sequence starting from the data already produced.
 
-Point 1 can be verified with statistical analyses; point 2 by measuring the times and comparing them with benchmark values, while point 3 can only be verified by an independent cryptographic analysis and therefore I invite the researchers to consider zci65 and confirm or deny this feature
+Point 1 can be verified with statistical analyses; point 2 by measuring the times and comparing them with benchmark values, while point 3 can only be verified by an independent cryptographic analysis and therefore I invite the researchers to consider zci65 and confirm or deny this feature!
 
-Zci65
+### Entropy of output
 
 ### The output stream produced by the encryption has a uniformly random distribution
 To compare the quality of the random distribution of the output, the encryption output streams of two algorithms were analyzed and compared: Salsa20 and SecRnd (a simple, but slow algorithm that generates a secure random sequence based on SHA-256 which puts exclusive with the input stream)
