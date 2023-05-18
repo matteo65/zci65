@@ -41,7 +41,7 @@ This tool provides visible feedback on the entropy of the zci65 encryped stream
 
 ![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/lorem_ipsum_zci65.png)
 
-**Input:** File [Contribution guidelines for this project](Resource/shakespeare_romeo-and-juliet.pdf)
+**Input:** File [shakespeare_romeo-and-juliet.pdf](Resource/shakespeare_romeo-and-juliet.pdf)
 
 ### The output stream produced by the encryption has a uniformly random distribution
 To compare the quality of the random distribution of the output, the encryption output streams of two algorithms were analyzed and compared: Salsa20 and SecRnd (a simple, but slow algorithm that generates a secure random sequence based on SHA-256 which puts exclusive with the input stream)
