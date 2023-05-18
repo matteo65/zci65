@@ -33,9 +33,10 @@ Point 1 can be verified with statistical analyses; point 2 by measuring the time
 ### Entropy of output
 This tool provides visible feedback on the entropy level of a sequence of bytes.
 
-|Input|Byte Map|
+|Input/Output|Byte Map|
 |:---|:---:|
-|Input: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a quam et sem facilisis elementum. Cras tristique, tellus nec tincidunt commodo, elit ex rutrum ipsum, suscipit tempor lacus ex vel arcu. Proin commodo, nisl id facilisis sodales, tortor felis ultricies lacus, at suscipit lectus quam ac sapien. Sed mollis orci eu lectus pretium, vitae ultrices sapien feugiat. In eget posuere libero, sit amet commodo ex. Donec ac pharetra mauris. Ut tristique sodales dolor, sed lacinia metus placerat ut. Phasellus vitae eleifend erat. | ![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/lorem_ipsum_txt.png)|
+|**Input:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a quam et sem facilisis elementum. Cras tristique, tellus nec tincidunt commodo, elit ex rutrum ipsum, suscipit tempor lacus ex vel arcu. Proin commodo, nisl id facilisis sodales, tortor felis ultricies lacus, at suscipit lectus quam ac sapien. Sed mollis orci eu lectus pretium, vitae ultrices sapien feugiat. In eget posuere libero, sit amet commodo ex. Donec ac pharetra mauris. Ut tristique sodales dolor, sed lacinia metus placerat ut. Phasellus vitae eleifend erat. | ![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/lorem_ipsum_txt.png)|
+|**Output:** cvCvhh|![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/lorem_ipsum_zci65.png)|
 
 
 ### The output stream produced by the encryption has a uniformly random distribution
