@@ -30,8 +30,8 @@ The main properties of a good encryption algorithm are:
 
 Point 1 can be verified with statistical analyses; point 2 by measuring the times and comparing them with benchmark values, while point 3 can only be verified by an independent cryptographic analysis and therefore I invite the researchers to consider zci65 and confirm or deny this feature!
 
-### Entropy of output
-This tool provides visible feedback on the entropy level of a sequence of bytes.
+### Entropy of encryption
+This tool provides visible feedback on the entropy of the zci65 encryped stream
 
 |Input/Output|Byte Map|
 |:---|:---:|
