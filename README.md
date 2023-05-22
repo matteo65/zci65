@@ -43,7 +43,7 @@ The least frequent byte is displayed in white, the most frequent byte in black, 
 |Variance = 2318.26                 |Variance = 10.95                 |
 |Deviation Standard = 48.15         |Deviation Standard = 3.31        |
 |Chi squared = 2318.26              |Chi squared = 10.95              |
-|**Coefficient of Variation = 413.35%**|**Coefficient of Variation = 28.4%**|
+|**Coefficient of Variation σ / μ = 413.35%**|**Coefficient of Variation σ / μ = 28.4%**|
 
 |shakespeare_romeo-and-juliet.pdf|shakespeare_romeo-and-juliet.pdf.zci65|
 |:--- |:--- |
@@ -55,7 +55,7 @@ The least frequent byte is displayed in white, the most frequent byte in black, 
 |Variance = 5780361.23              |Variance = 4280.4                 |
 |Deviation Standard = 2404.24       |Deviation Standard = 65.42        |
 |Chi squared = 5780361.23           |Chi squared = 4280.4              |
-|**Coefficient of Variation = 57.83%**|**Coefficient of Variation = 1.57%**|
+|**Coefficient of Variation σ / μ = 57.83%**|**Coefficient of Variation σ / μ = 1.57%**|
 
 
 
