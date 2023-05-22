@@ -43,7 +43,7 @@ The least frequent byte is displayed in white, the most frequent byte in black, 
 |Variance σ<sup>2</sup> = 2318.26   |Variance σ<sup>2</sup> = 10.95                 |
 |Deviation Standard σ = 48.15       |Deviation Standard σ = 3.31        |
 |Chi squared 𝛘<sup>2</sup> = 2318.26 |Chi squared 𝛘<sup>2</sup>= 10.95              |
-|**Coefficient of Variation σ/μ = 413.35%**|**Coefficient of Variation σ/μ = 28.4%**|
+|**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 413.35%**|**Coefficient of Variation σ/μ = 28.4%**|
 
 |shakespeare_romeo-and-juliet.pdf|shakespeare_romeo-and-juliet.pdf.zci65|
 |:--- |:--- |
