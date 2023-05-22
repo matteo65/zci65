@@ -40,7 +40,7 @@ The least frequent byte is displayed in white, the most frequent byte in black, 
 |Min Frequency = 0 (214 instances)  |Min Frequency = 4 (12 instances) |
 |Max Frequency = 441 (13 instances) |Max Frequency = 22 (14 instances)|
 |Average Frequency μ = 11.65        |Average Frequency μ = 11.65        |
-|Variance = 2318.26                 |Variance = 10.95                 |
+|Varianc^e = 2318.26                 |Variance = 10.95                 |
 |Deviation Standard σ = 48.15       |Deviation Standard σ = 3.31        |
 |Chi squared = 2318.26              |Chi squared = 10.95              |
 |**Coefficient of Variation σ/μ = 413.35%**|**Coefficient of Variation σ/μ = 28.4%**|
