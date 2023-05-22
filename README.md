@@ -39,11 +39,11 @@ The least frequent byte is displayed in white, the most frequent byte in black, 
 |Length = 2982 bytes                |Length = 2982 bytes              |
 |Min Frequency = 0 (214 instances)  |Min Frequency = 4 (12 instances) |
 |Max Frequency = 441 (13 instances) |Max Frequency = 22 (14 instances)|
-|Average Frequency = 11.65          |Average Frequency = 11.65        |
+|Average Frequency μ = 11.65        |Average Frequency μ = 11.65        |
 |Variance = 2318.26                 |Variance = 10.95                 |
-|Deviation Standard = 48.15         |Deviation Standard = 3.31        |
+|Deviation Standard σ = 48.15       |Deviation Standard σ = 3.31        |
 |Chi squared = 2318.26              |Chi squared = 10.95              |
-|**Coefficient of Variation σ / μ = 413.35%**|**Coefficient of Variation σ / μ = 28.4%**|
+|**Coefficient of Variation σ/μ = 413.35%**|**Coefficient of Variation σ/μ = 28.4%**|
 
 |shakespeare_romeo-and-juliet.pdf|shakespeare_romeo-and-juliet.pdf.zci65|
 |:--- |:--- |
@@ -51,11 +51,11 @@ The least frequent byte is displayed in white, the most frequent byte in black, 
 |Length = 1064366 bytes             |Length = 1064366 bytes            |
 |Min Frequency = 2634 (7 instances) |Min Frequency = 3904 (4 instances)|
 |Max Frequency = 31436 (4 instances)|Max Frequency = 4313 (7 instances)|
-|Average Frequency = 4157.68        |Average Frequency = 4157.68       |
+|Average Frequency μ = 4157.68      |Average Frequency μ = 4157.68       |
 |Variance = 5780361.23              |Variance = 4280.4                 |
-|Deviation Standard = 2404.24       |Deviation Standard = 65.42        |
+|Deviation Standard σ = 2404.24     |Deviation Standard σ = 65.42        |
 |Chi squared = 5780361.23           |Chi squared = 4280.4              |
-|**Coefficient of Variation σ / μ = 57.83%**|**Coefficient of Variation σ / μ = 1.57%**|
+|**Coefficient of Variation σ/μ = 57.83%**|**Coefficient of Variation σ/μ = 1.57%**|
 
 
 
