@@ -33,9 +33,9 @@ Point 1 can be verified with statistical analyses; point 2 by measuring the time
 ### Entropy of encryption
 This tool shows the byte distribution of a file on a square window displaying a 16x16 matrix (one element for each byte). 
 The least frequent byte is displayed in white, the most frequent byte in black, the others are proportionally distributed in shades of gray (total 256 shades)
-
-|![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/lorem_ipsum_txt.png)|![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/lorem_ipsum_zci65.png)|
+|lorem_ipsum.txt|lorem_ipsum.txt.zci65|
 |:--- |:--- |
+|![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/lorem_ipsum_txt.png)|![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/lorem_ipsum_zci65.png)|
 |Length = 2982 bytes                |Length = 2982 bytes              |
 |Min Frequency = 0 (214 instances)  |Min Frequency = 4 (12 instances) |
 |Max Frequency = 441 (13 instances) |Max Frequency = 22 (14 instances)|
@@ -44,6 +44,20 @@ The least frequent byte is displayed in white, the most frequent byte in black, 
 |Deviation Standard = 48.15         |Deviation Standard = 3.31        |
 |Chi squared = 2318.26              |Chi squared = 10.95              |
 |Coefficient of Variation = 413.35% |Coefficient of Variation = 28.4% |
+
+|shakespeare_romeo-and-juliet.pdf|shakespeare_romeo-and-juliet.pdf.zci65|
+|:--- |:--- |
+|![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/shakespeare_romeo-and-juliet.pdf.png)|![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/shakespeare_romeo-and-juliet.pdf.zci65.png)|
+|Length = 1064366 bytes             |Length = 1064366 bytes            |
+|Min Frequency = 2634 (7 instances) |Min Frequency = 3904 (4 instances)|
+|Max Frequency = 31436 (4 instances)|Max Frequency = 4313 (7 instances)|
+|Average Frequency = 4157.68        |Average Frequency = 4157.68       |
+|Variance = 5780361.23              |Variance = 4280.4                 |
+|Deviation Standard = 2404.24       |Deviation Standard = 65.42        |
+|Chi squared = 5780361.23           |Chi squared = 4280.4              |
+|Coefficient of Variation = 57.83%  |Coefficient of Variation = 1.57%  |
+
+
 
 **Input:** File [shakespeare_romeo-and-juliet.pdf](Resource/shakespeare_romeo-and-juliet.pdf)
 
