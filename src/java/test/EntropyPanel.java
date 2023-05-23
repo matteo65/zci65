@@ -59,20 +59,20 @@ public class EntropyPanel extends JPanel {
 		
 		// Imposto la tavolozza a "bianco", ovvero nero con alpha = 0 (totalmente opaco)
 		for (int x = 0; x < 256; x++) {
-            for (int y = 0; y < 256; y++) {
-                this.canvas.setRGB(x, y, RGB_WHITE_COLOR);
-            }
-        }
+			for (int y = 0; y < 256; y++) {
+        	        	this.canvas.setRGB(x, y, RGB_WHITE_COLOR);
+            		}
+        	}
 		
 		// Calcolo la frequenza minima e massima, lo scarto quadratico medio e chi quadrato
 		int minFreq = Integer.MAX_VALUE;
 		int maxFreq = Integer.MIN_VALUE;
 		int countMinFreq = 0;
 		int countMaxFreq = 0;
-		
+
 		double variance = 0.0;
 		double chi_squared = 0.0;
-		
+
 		for(int i = 0; i < 256; i++) {
 			if(freq[i] < minFreq) {
 				minFreq = freq[i];
@@ -90,9 +90,9 @@ public class EntropyPanel extends JPanel {
 			chi_squared += (freq[i] - average) * (freq[i] - average) / 256.0;
 		}
 		variance /= 256.0;
-		
+
 		double standard_deviation = Math.sqrt(variance);
-		
+
 		System.out.println("Length = " + length + " bytes");
 		System.out.println("Min Frequency = " + minFreq + " (" + countMinFreq + " instances)");
 		System.out.println("Max Frequency = " + maxFreq + " (" + countMaxFreq + " instances)");
@@ -102,27 +102,27 @@ public class EntropyPanel extends JPanel {
 		System.out.println("Chi squared = " + round(chi_squared));
 		System.out.println("Coefficient of Variation = " + round((standard_deviation / average) * 100) + "%");
 		System.out.println();
-		
+
 		assert maxFreq >= 0 && minFreq >= 0 && maxFreq >= minFreq;
-		
+
 		// If there is not variability, return all white
 		if(maxFreq == minFreq)
 			return; 
-		
+
 		// Calcolo il fattore di "normalizzazione" s
 		double s = 255.0d / (maxFreq - minFreq);
-		
+
 		// Disegno i quadrati di ogni byte
 		for(int b = 0; b < 256; b++) {
 			int x = 16 * (b & 0xF);
 			int y = 16 * ((b >> 4) & 0xF);
 			int rgb = this.canvas.getRGB(x, y);
-			
+
 			// Calcolo l'alpha del byte b
 			int alpha = (int)Math.round(((freq[b] - minFreq) * s));
-			
+
 			assert alpha >= 0 && alpha <= 255;
-			
+
 			rgb = (rgb & 0x00FFFFFF) | (alpha << 24);
 			for(int i = 0; i < 16; i++) {
 				for(int j = 0; j < 16; j++) {
@@ -137,7 +137,7 @@ public class EntropyPanel extends JPanel {
 		super.paintComponent(g);
 		g.drawImage(canvas, 0, 0, null);
 	}
-	
+
 	double round(double d) {
 		return Math.round(d * 100.0) / 100.0;
 	}
