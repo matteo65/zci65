@@ -52,20 +52,26 @@ The least frequent byte is displayed in white, the most frequent byte in black, 
 |Min Frequency = 2634 (7 instances) |Min Frequency = 3904 (4 instances)|
 |Max Frequency = 31436 (4 instances)|Max Frequency = 4313 (7 instances)|
 |Average Frequency μ = 4157.68      |Average Frequency μ = 4157.68       |
-|Variance σ<sup>2</sup> = 5780361.23 |Variance σ<sup>2</sup> = 4280.4                 |
+|Variance σ<sup>2</sup> = 5780361.23|Variance σ<sup>2</sup> = 4280.4                 |
 |Deviation Standard σ = 2404.24     |Deviation Standard σ = 65.42        |
 |Chi squared 𝛘<sup>2</sup> = 5780361.23 |Chi squared 𝛘<sup>2</sup> = 4280.4              |
 |**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 57.83%**|**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.57%**|
 
+|shakespeare_romeo-and-juliet.7z|shakespeare_romeo-and-juliet.7z.zci65|
+|:--- |:--- |
+|![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/shakespeare_romeo-and-juliet.7z.png)|![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/shakespeare_romeo-and-juliet.7z.zci65.png)|
+|Length = 922394 bytes              |Length = 922394 bytes
+|Min Frequency = 3423 (5 instances) |Min Frequency = 3369 (6 instances)
+|Max Frequency = 3769 (5 instances) |Max Frequency = 3755 (8 instances)
+|Average Frequency μ = 3603.1       |Average Frequency μ = 3603.1
+|Variance σ<sup>2</sup> = 4038.68   |Variance σ<sup>2</sup> = 3638.29
+|Deviation Standard σ = 63.55       |Deviation Standard σ = 60.32
+|Chi squared 𝛘<sup>2</sup> = 4038.68  |Chi squared 𝛘<sup>2</sup> = 3638.29
+|**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.76%** |**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.67%**
 
 
-**Input:** File [shakespeare_romeo-and-juliet.pdf](Resource/shakespeare_romeo-and-juliet.pdf)
 
-![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/shakespeare_romeo-and-juliet.pdf.png)
 
-**Output:** File [shakespeare_romeo-and-juliet.pdf.zci65](Resource/shakespeare_romeo-and-juliet.pdf.zci65)
-
-![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/shakespeare_romeo-and-juliet.pdf.zci65.png)
 
 ### The output stream produced by the encryption has a uniformly random distribution
 To compare the quality of the random distribution of the output, the encryption output streams of two algorithms were analyzed and compared: Salsa20 and SecRnd (a simple, but slow algorithm that generates a secure random sequence based on SHA-256 which puts exclusive with the input stream)
