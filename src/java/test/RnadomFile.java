@@ -73,27 +73,27 @@ public class RnadomFile {
 		assert BUFFER_SIZE > 0;
 		
 		try {
-    		byte[] buffer = new byte[BUFFER_SIZE];
-    		try (FileOutputStream fos = new FileOutputStream(file)) {
-    			while(length >= BUFFER_SIZE) {
-    				
-    				for(int i = 0; i < BUFFER_SIZE; i++)
-    					buffer[i] = (byte)secRnd.nextInt(256);
-    				
-    				fos.write(buffer);
-    			
-    				length -= BUFFER_SIZE;
-    			}
-    			
-    			if(length > 0) {
-    				for(int i = 0; i < length; i++)
-    					buffer[i] = (byte)secRnd.nextInt(256);
-    				
-    				fos.write(buffer, 0, length);
-    			}
-    			
-    		}
-    		System.exit(0);
+			byte[] buffer = new byte[BUFFER_SIZE];
+			try (FileOutputStream fos = new FileOutputStream(file)) {
+				while(length >= BUFFER_SIZE) {
+
+					for(int i = 0; i < BUFFER_SIZE; i++)
+						buffer[i] = (byte)secRnd.nextInt(256);
+
+					fos.write(buffer);
+
+					length -= BUFFER_SIZE;
+				}
+
+				if(length > 0) {
+					for(int i = 0; i < length; i++)
+						buffer[i] = (byte)secRnd.nextInt(256);
+
+					fos.write(buffer, 0, length);
+				}
+
+			}
+    			System.exit(0);
 		}
 		catch(Exception e) {
 			System.err.println("*** Error: " + e.toString());
