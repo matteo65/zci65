@@ -32,7 +32,9 @@ Point 1 can be verified with statistical analyses; point 2 by measuring the time
 
 ### Entropy of encryption
 This tool shows the byte distribution of a file on a square window displaying a 16x16 matrix (one element for each byte). 
-The least frequent byte is displayed in white, the most frequent byte in black, the others are proportionally distributed in shades of gray (total 256 shades)
+The least frequent byte is displayed in white, the most frequent byte in black, the others are proportionally distributed in shades of gray (total 256 shades).
+The result is that a tendentially dark image corresponds to a higher chaotic level of the analyzed data.
+
 |lorem_ipsum.txt|lorem_ipsum.txt.zci65|
 |:--- |:--- |
 |![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/lorem_ipsum_txt.png)|![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/lorem_ipsum_zci65.png)|
@@ -69,9 +71,7 @@ The least frequent byte is displayed in white, the most frequent byte in black, 
 |Chi squared 𝛘<sup>2</sup> = 4038.68  |Chi squared 𝛘<sup>2</sup> = 3638.29
 |**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.76%** |**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.67%**
 
-
-
-
+In this case the file was zipped with the maximum compression level and also encrypted with a password (AES-256 algorithm). However, it is noted that the level of entropy is slightly higher than the same file encrypted with zci65.
 
 ### The output stream produced by the encryption has a uniformly random distribution
 To compare the quality of the random distribution of the output, the encryption output streams of two algorithms were analyzed and compared: Salsa20 and SecRnd (a simple, but slow algorithm that generates a secure random sequence based on SHA-256 which puts exclusive with the input stream)
