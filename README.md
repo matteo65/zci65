@@ -71,7 +71,7 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 |Chi squared 𝛘<sup>2</sup> = 4038.68  |Chi squared 𝛘<sup>2</sup> = 3638.29
 |**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.76%** |**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.67%**
 
-In this case the file was zipped with the maximum compression level and also encrypted with a password (AES-256 algorithm). However, it is noted that the level of entropy is slightly higher than the same file encrypted with zci65; in fact the zci65 image is visibly darker.
+In this case the file was zipped with the maximum compression level and also encrypted with a password (AES-256 algorithm). However, it is noted that the level of entropy is slightly lower than the same file encrypted with zci65; in fact the zci65 image is visibly darker.
 
 ### The output stream produced by the encryption has a uniformly random distribution
 To compare the quality of the random distribution of the output, the encryption output streams of two algorithms were analyzed and compared: Salsa20 and SecRnd (a simple, but slow algorithm that generates a secure random sequence based on SHA-256 which puts exclusive with the input stream)
