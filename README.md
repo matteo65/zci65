@@ -1,7 +1,7 @@
 # zci65
 **Fast, secure, efficent stream cipher**
 
-Zci65 uses a 32-byte key and does not use a Initialization Vector (IV); the algorithm use a internal 256 length array s[] of 32 bit integer and other 2 internal 32 bit fields, k and c; in total the status size is 1088 bytes.
+Zci65 uses a 32-byte key and does not use an Initialization Vector (IV); the algorithm use a internal 256 length array s[] of 32 bit integer and other 2 internal 32 bit fields, k and c; in total the status size is 1088 bytes.
 The internal state is continuously changed by the source content to be encrypted.
 The code is very simple, the main functions are:
 ```java	
