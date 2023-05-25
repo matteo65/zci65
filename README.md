@@ -73,7 +73,7 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 
 In this case the file was zipped with the maximum compression level and also encrypted with a password (AES-256 algorithm). However, it is noted that the level of entropy is slightly lower than the same file encrypted with zci65; in fact the zci65 image is visibly darker.
 
-|**Index                                  |zci65   |salsa20   |benchmark**  |
+|**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
 |:---                                   |:---    |:---      |:---       |
 |Min Dev.Standard min(σ)                |50.664  |49.544    |49.406     |
 |Max Dev.Standard max(σ)                |74.976  |75.912    |78.532     |
