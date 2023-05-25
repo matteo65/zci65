@@ -80,7 +80,7 @@ In this case the file was zipped with the maximum compression level and also enc
 |**Average Dev. Standard avg(σ)**            |**62.315**  |**62.318**    |**62.320**     |
 |Min Chi squared min(𝛘<sup>2</sup>)     |168.223 |160.862   |159.968    |
 |Max Chi squared max(𝛘<sup>2</sup>)     |368.408 |377.662   |404.176    |
-|**Average Chi squared max(𝛘<sup>2</sup>)** |**254.987** |**255.013**   |**255.030**    |
+|**Average Chi squared avg(𝛘<sup>2</sup>)** |**254.987** |**255.013**   |**255.030**    |
 |Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)     |0.013% |0.013%   |0.013%    |
 |Max Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)     |0.019% |0.019%   |0.020%    |
 |**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**0.016%** |**0.016%**   |**0.016%**    |
