@@ -77,18 +77,43 @@ In this case the file was zipped with the maximum compression level and also enc
 The following tables show the value of Standard Deviation, Chi Square and Coefficient of Variation calculated by analyzing 1,000,000 outputs produced with random keys by the zci65 and salsa20 algorithms.
 As a benchmark, the same indices were calculated on a sample of 1,000,000 randomly produced outputs.
 
-#### 1) Input size 1,000,000 bytes, all set to 0x00 
+#### 1) Input size: 1,000,000 bytes, all set to 0x00 
 |**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
-|:---                                   |:---    |:---      |:---       |
-|Min Dev. Standard min(σ)                |50.664  |49.544    |49.406     |
-|Max Dev. Standard max(σ)                |74.976  |75.912    |78.532     |
-|**Average Dev. Standard avg(σ)**            |**62.315**  |**62.318**    |**62.320**     |
-|Min Chi squared min(𝛘<sup>2</sup>)     |168.223 |160.862   |159.968    |
-|Max Chi squared max(𝛘<sup>2</sup>)     |368.408 |377.662   |404.176    |
-|**Average Chi squared avg(𝛘<sup>2</sup>)** |**254.987** |**255.013**   |**255.030**    |
-|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)     |1.297% |1.268%   |0.013%    |
-|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)     |1.919% |1.943%   |0.020%    |
-|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |**1.595%**   |**0.016%**    |
+|:---                                       |:---        |:---          |:---       |
+|Min Dev. Standard min(σ)                   |50.664      |49.544        |49.406     |
+|Max Dev. Standard max(σ)                   |74.976      |75.912        |78.532     |
+|**Average Dev. Standard avg(σ)**           |**62.315**  |**62.318**    |**62.320**  |
+|Min Chi squared min(𝛘<sup>2</sup>)         |168.223     |160.862       |159.968    |
+|Max Chi squared max(𝛘<sup>2</sup>)         |368.408     |377.662       |404.176    |
+|**Average Chi squared avg(𝛘<sup>2</sup>)** |**254.987** |**255.013**   |**255.030** |
+|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |1.297%     |1.268%       |   |
+|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |1.919%     |1.943%       |   |
+|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |**1.595%**   |   |
 
 
+#### 2) Input size: 1,000,000 bytes, all set to 0xFF 
+|**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
+|:---                                       |:---        |:---          |:---       |
+|Min Dev. Standard min(σ)                   |            |              |           |
+|Max Dev. Standard max(σ)                   |            |              |           |
+|**Average Dev. Standard avg(σ)**           |            |              |           |
+|Min Chi squared min(𝛘<sup>2</sup>)         |            |              |           |
+|Max Chi squared max(𝛘<sup>2</sup>)         |            |              |           |
+|**Average Chi squared avg(𝛘<sup>2</sup>)** |            |              |           |
+|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |        |           |      |
+|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |        |           |      |
+|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |        |           |      |
+
+#### 3) Input size: 1,000,000 bytes, content: random bytes
+|**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
+|:---                                       |:---        |:---          |:---       |
+|Min Dev. Standard min(σ)                   |            |              |           |
+|Max Dev. Standard max(σ)                   |            |              |           |
+|**Average Dev. Standard avg(σ)**           |            |              |           |
+|Min Chi squared min(𝛘<sup>2</sup>)         |            |              |           |
+|Max Chi squared max(𝛘<sup>2</sup>)         |            |              |           |
+|**Average Chi squared avg(𝛘<sup>2</sup>)** |            |              |           |
+|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |        |           |      |
+|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |        |           |      |
+|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |        |           |      |
 
