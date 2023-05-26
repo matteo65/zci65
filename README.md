@@ -79,7 +79,7 @@ As a benchmark, the same indices were calculated on a sample of 1,000,000 random
 
 #### 1) Input size: 1,000,000 bytes, all set to 0x00 
 |**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
-|:---                                       |:---        |:---          |:---       |
+|:---                                       |---:        |---:          |---:       |
 |Min Dev. Standard min(σ)                   |50.664      |49.544        |49.406     |
 |Max Dev. Standard max(σ)                   |74.976      |75.912        |78.532     |
 |**Average Dev. Standard avg(σ)**           |**62.315**  |**62.318**    |**62.320**  |
@@ -93,7 +93,7 @@ As a benchmark, the same indices were calculated on a sample of 1,000,000 random
 
 #### 2) Input size: 1,000,000 bytes, all set to 0xFF 
 |**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
-|:---                                       |:---        |:---          |:---       |
+|:---                                       |---:        |---:          |---:       |
 |Min Dev. Standard min(σ)                   |48.189      |              |           |
 |Max Dev. Standard max(σ)                   |77.811      |              |           |
 |**Average Dev. Standard avg(σ)**           |62.311      |              |           |
@@ -106,7 +106,7 @@ As a benchmark, the same indices were calculated on a sample of 1,000,000 random
 
 #### 3) Input size: 1,000,000 bytes, content: random bytes
 |**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
-|:---                                       |:---        |:---          |:---       |
+|:---                                       |---:        |---:          |---:       |
 |Min Dev. Standard min(σ)                   |            |              |           |
 |Max Dev. Standard max(σ)                   |            |              |           |
 |**Average Dev. Standard avg(σ)**           |            |              |           |
