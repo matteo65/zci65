@@ -94,15 +94,15 @@ As a benchmark, the same indices were calculated on a sample of 1,000,000 random
 #### 2) Input size: 1,000,000 bytes, all set to 0xFF 
 |**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
 |:---                                       |:---        |:---          |:---       |
-|Min Dev. Standard min(σ)                   |            |              |           |
-|Max Dev. Standard max(σ)                   |            |              |           |
-|**Average Dev. Standard avg(σ)**           |            |              |           |
-|Min Chi squared min(𝛘<sup>2</sup>)         |            |              |           |
-|Max Chi squared max(𝛘<sup>2</sup>)         |            |              |           |
-|**Average Chi squared avg(𝛘<sup>2</sup>)** |            |              |           |
-|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |        |           |      |
-|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |        |           |      |
-|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |        |           |      |
+|Min Dev. Standard min(σ)                   |48.189      |              |           |
+|Max Dev. Standard max(σ)                   |77.811      |              |           |
+|**Average Dev. Standard avg(σ)**           |62.311      |              |           |
+|Min Chi squared min(𝛘<sup>2</sup>)         |152.186     |              |           |
+|Max Chi squared max(𝛘<sup>2</sup>)         |396.791     |              |           |
+|**Average Chi squared avg(𝛘<sup>2</sup>)** |254.95      |              |           |
+|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |1.234%  |           |      |
+|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |1.992%  |           |      |
+|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%**  |           |      |
 
 #### 3) Input size: 1,000,000 bytes, content: random bytes
 |**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
