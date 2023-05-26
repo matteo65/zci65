@@ -88,7 +88,7 @@ As a benchmark, the same indices were calculated on a sample of 1,000,000 random
 |**Average Chi squared avg(𝛘<sup>2</sup>)** |**254.987** |**255.013**   |**255.030**    |
 |Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)     |1.297% |1.268%   |0.013%    |
 |Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)     |1.919% |1.943%   |0.020%    |
-|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |**1.595**   |**0.016%**    |
+|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |**1.595%**   |**0.016%**    |
 
 
 
