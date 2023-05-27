@@ -82,7 +82,7 @@ As a benchmark, the same indices were calculated on a sample of 1,000,000 random
 |:---                                       |---:        |---:          |---:       |
 |Min Standard Dev. min(σ)                   |50.664      |49.544        |49.406     |
 |Max Standard Dev. max(σ)                   |74.976      |75.912        |78.532     |
-|**Average Dev. Standard avg(σ)**           |**62.315**  |**62.318**    |**62.320**  |
+|**Average Standard Dev. avg(σ)**           |**62.315**  |**62.318**    |**62.320**  |
 |Min Chi Squared min(𝛘<sup>2</sup>)         |168.223     |160.862       |159.968    |
 |Max Chi Squared max(𝛘<sup>2</sup>)         |368.408     |377.662       |404.176    |
 |**Average Chi squared avg(𝛘<sup>2</sup>)** |**254.987** |**255.013**   |**255.030** |
@@ -96,7 +96,7 @@ As a benchmark, the same indices were calculated on a sample of 1,000,000 random
 |:---                                       |---:        |---:          |---:       |
 |Min Standard Dev. min(σ)                   |48.189      |49.544        |           |
 |Max Standard Dev. max(σ)                   |77.811      |75.912        |           |
-|**Average Dev. Standard avg(σ)**           |**62.311**  |**62.318**    |           |
+|**Average Standard Dev. avg(σ)**           |**62.311**  |**62.318**    |           |
 |Min Chi Squared min(𝛘<sup>2</sup>)         |152.186     |160.862       |           |
 |Max Chi Squared max(𝛘<sup>2</sup>)         |396.791     |377.662       |           |
 |**Average Chi squared avg(𝛘<sup>2</sup>)** |**254.95**  |**255.013**   |           |
@@ -109,7 +109,7 @@ As a benchmark, the same indices were calculated on a sample of 1,000,000 random
 |:---                                       |---:        |---:          |---:       |
 |Min Standard Dev. min(σ)                   |            |              |           |
 |Max Standard Dev. max(σ)                   |            |              |           |
-|**Average Dev. Standard avg(σ)**           |            |              |           |
+|**Average Standard Dev. avg(σ)**           |            |              |           |
 |Min Chi Squared min(𝛘<sup>2</sup>)         |            |              |           |
 |Max Chi Squared max(𝛘<sup>2</sup>)         |            |              |           |
 |**Average Chi squared avg(𝛘<sup>2</sup>)** |            |              |           |
