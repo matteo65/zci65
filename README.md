@@ -74,14 +74,14 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 In this case the file was zipped with the maximum compression level and also encrypted with a password (AES-256 algorithm). However, it is noted that the level of entropy is slightly lower than the same file encrypted with zci65; in fact the zci65 image is visibly darker.
 
 ### Statistical analysis of encryption output
-The following tables show the values of Standard deviation, Chi square and Coefficient of variation calculated by analyzing 1,000,000 output arrays produced from 1 input array with 1,000,000 random keys by the zci65 and salsa20 algorithms.
+The following tables show the values of **Standard Deviation**, **Chi Squared** and **Coefficient of Variation** calculated by analyzing 1,000,000 output arrays produced from 1 input array with 1,000,000 random keys by the zci65 and salsa20 algorithms.
 As a benchmark, the same indices were calculated on a sample of 1,000,000 random arrays.
 
 #### 1) Input size: 1,000,000 bytes, all set to 0x00 
 |**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
 |:---                                       |---:        |---:          |---:       |
-|Min Dev. Standard min(σ)                   |50.664      |49.544        |49.406     |
-|Max Dev. Standard max(σ)                   |74.976      |75.912        |78.532     |
+|Min Standard Dev. min(σ)                   |50.664      |49.544        |49.406     |
+|Max Standard Dev. max(σ)                   |74.976      |75.912        |78.532     |
 |**Average Dev. Standard avg(σ)**           |**62.315**  |**62.318**    |**62.320**  |
 |Min Chi squared min(𝛘<sup>2</sup>)         |168.223     |160.862       |159.968    |
 |Max Chi squared max(𝛘<sup>2</sup>)         |368.408     |377.662       |404.176    |
@@ -94,8 +94,8 @@ As a benchmark, the same indices were calculated on a sample of 1,000,000 random
 #### 2) Input size: 1,000,000 bytes, all set to 0xFF 
 |**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
 |:---                                       |---:        |---:          |---:       |
-|Min Dev. Standard min(σ)                   |48.189      |49.544        |           |
-|Max Dev. Standard max(σ)                   |77.811      |75.912        |           |
+|Min Standard Dev. min(σ)                   |48.189      |49.544        |           |
+|Max Standard Dev. max(σ)                   |77.811      |75.912        |           |
 |**Average Dev. Standard avg(σ)**           |**62.311**  |**62.318**    |           |
 |Min Chi squared min(𝛘<sup>2</sup>)         |152.186     |160.862       |           |
 |Max Chi squared max(𝛘<sup>2</sup>)         |396.791     |377.662       |           |
@@ -107,8 +107,8 @@ As a benchmark, the same indices were calculated on a sample of 1,000,000 random
 #### 3) Input size: 1,000,000 bytes, content: random bytes
 |**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
 |:---                                       |---:        |---:          |---:       |
-|Min Dev. Standard min(σ)                   |            |              |           |
-|Max Dev. Standard max(σ)                   |            |              |           |
+|Min Standard Dev. min(σ)                   |            |              |           |
+|Max Standard Dev. max(σ)                   |            |              |           |
 |**Average Dev. Standard avg(σ)**           |            |              |           |
 |Min Chi squared min(𝛘<sup>2</sup>)         |            |              |           |
 |Max Chi squared max(𝛘<sup>2</sup>)         |            |              |           |
