@@ -28,7 +28,7 @@ The main properties of a good encryption algorithm are:
 2. Do it in the shortest possible time (and this is especially true for a stream cipher) 
 3. Make it impossible to predict the output sequence starting from the data already produced.
 
-Point 1 can be verified with statistical analyses; point 2 by measuring the times and comparing them with benchmark values, while point 3 can only be verified by an independent cryptographic analysis and therefore I invite the researchers to consider zci65 and confirm or deny this feature!
+Point 1 can be verified with statistical analysis; point 2 by measuring the times and comparing them with benchmark values, while point 3 can only be verified by an independent cryptographic analysis and therefore I invite the researchers to consider zci65 and confirm or deny this feature!
 
 ### Entropy of encryption
 This tool shows the byte distribution of a file on a square window displaying a 16x16 matrix (one element for each byte). 
