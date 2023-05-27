@@ -43,7 +43,7 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 |Max Frequency = 441 (13 instances) |Max Frequency = 22 (14 instances)|
 |Average Frequency μ = 11.65        |Average Frequency μ = 11.65        |
 |Variance σ<sup>2</sup> = 2318.26   |Variance σ<sup>2</sup> = 10.95                 |
-|Deviation Standard σ = 48.15       |Deviation Standard σ = 3.31        |
+|Standard Deviation σ = 48.15       |Standard Deviation σ = 3.31        |
 |Chi squared 𝛘<sup>2</sup> = 2318.26 |Chi squared 𝛘<sup>2</sup>= 10.95              |
 |**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 413.35%**|**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 28.4%**|
 
@@ -55,7 +55,7 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 |Max Frequency = 31436 (4 instances)|Max Frequency = 4313 (7 instances)|
 |Average Frequency μ = 4157.68      |Average Frequency μ = 4157.68       |
 |Variance σ<sup>2</sup> = 5780361.23|Variance σ<sup>2</sup> = 4280.4                 |
-|Deviation Standard σ = 2404.24     |Deviation Standard σ = 65.42        |
+|Standard Deviation σ = 2404.24     |Standard Deviation σ = 65.42        |
 |Chi squared 𝛘<sup>2</sup> = 5780361.23 |Chi squared 𝛘<sup>2</sup> = 4280.4              |
 |**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 57.83%**|**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.57%**|
 
@@ -67,7 +67,7 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 |Max Frequency = 3769 (5 instances) |Max Frequency = 3755 (8 instances)
 |Average Frequency μ = 3603.1       |Average Frequency μ = 3603.1
 |Variance σ<sup>2</sup> = 4038.68   |Variance σ<sup>2</sup> = 3638.29
-|Deviation Standard σ = 63.55       |Deviation Standard σ = 60.32
+|Standard Deviation σ = 63.55       |Standard Deviation σ = 60.32
 |Chi squared 𝛘<sup>2</sup> = 4038.68  |Chi squared 𝛘<sup>2</sup> = 3638.29
 |**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.76%** |**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.67%**
 
