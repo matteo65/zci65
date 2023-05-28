@@ -107,13 +107,13 @@ As a benchmark, the same indices were calculated on a sample of 1,000,000 random
 #### 3) Input size: 1,000,000 bytes, content: random bytes
 |**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
 |:---                                       |---:        |---:          |---:       |
-|Min Standard Dev. min(σ)                   |49.570      |              |           |
-|Max Standard Dev. max(σ)                   |77.763      |              |           |
-|**Average Standard Dev. avg(σ)**           |**62.310**  |              |           |
-|Min Chi Squared min(𝛘<sup>2</sup>)         |161.035     |              |           |
-|Max Chi Squared max(𝛘<sup>2</sup>)         |396.303     |              |           |
-|**Average Chi squared avg(𝛘<sup>2</sup>)** |**254.944** |              |           |
-|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |1.269%  |           |      |
-|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |1.991%  |           |      |
-|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |           |      |
+|Min Standard Dev. min(σ)                   |49.570      |50.401        |           |
+|Max Standard Dev. max(σ)                   |77.763      |75.819        |           |
+|**Average Standard Dev. avg(σ)**           |**62.310**  |**62.316**    |           |
+|Min Chi Squared min(𝛘<sup>2</sup>)         |161.035     |166.481       |           |
+|Max Chi Squared max(𝛘<sup>2</sup>)         |396.303     |376.735       |           |
+|**Average Chi squared avg(𝛘<sup>2</sup>)** |**254.944** |**254.991**   |           |
+|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |1.269%  |1.290%     |      |
+|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |1.991%  |1.941%     |      |
+|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |**1.595%**     |      |
 
