@@ -86,34 +86,34 @@ As a benchmark, the same indices were calculated on a sample of 1,000,000 random
 |Min Chi Squared min(𝛘<sup>2</sup>)         |168.223     |160.862       |159.968    |
 |Max Chi Squared max(𝛘<sup>2</sup>)         |368.408     |377.662       |404.176    |
 |**Average Chi squared avg(𝛘<sup>2</sup>)** |**254.987** |**255.013**   |**255.030** |
-|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |1.297%     |1.268%       |   |
-|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |1.919%     |1.943%       |   |
-|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |**1.595%**   |   |
-
+|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |1.297%     |1.268%       |1.265%   |
+|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |1.919%     |1.943%       |2.010%   |
+|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |**1.595%**   |**1.595%**   |
+**
 
 #### 2) Input size: 1,000,000 bytes, all set to 0xFF 
 |**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
 |:---                                       |---:        |---:          |---:       |
-|Min Standard Dev. min(σ)                   |48.189      |49.544        |           |
-|Max Standard Dev. max(σ)                   |77.811      |75.912        |           |
-|**Average Standard Dev. avg(σ)**           |**62.311**  |**62.318**    |           |
-|Min Chi Squared min(𝛘<sup>2</sup>)         |152.186     |160.862       |           |
-|Max Chi Squared max(𝛘<sup>2</sup>)         |396.791     |377.662       |           |
-|**Average Chi squared avg(𝛘<sup>2</sup>)** |**254.95**  |**255.013**   |           |
-|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |1.234%  |1.268%     |      |
-|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |1.992%  |1.943%     |      |
-|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |**1.595%**    |      |
+|Min Standard Dev. min(σ)                   |48.189      |49.544        |49.406    |
+|Max Standard Dev. max(σ)                   |77.811      |75.912        |78.532     |
+|**Average Standard Dev. avg(σ)**           |**62.311**  |**62.318**    |**62.320** |
+|Min Chi Squared min(𝛘<sup>2</sup>)         |152.186     |160.862       |159.968    |
+|Max Chi Squared max(𝛘<sup>2</sup>)         |396.791     |377.662       |404.176    |
+|**Average Chi squared avg(𝛘<sup>2</sup>)** |**254.95**  |**255.013**   |**255.030**|
+|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |1.234%  |1.268%     |1.265% |
+|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |1.992%  |1.943%     |2.010% |
+|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |**1.595%** |**1.595%** |
 
 #### 3) Input size: 1,000,000 bytes, content: random bytes
 |**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
 |:---                                       |---:        |---:          |---:       |
-|Min Standard Dev. min(σ)                   |49.570      |50.401        |           |
-|Max Standard Dev. max(σ)                   |77.763      |75.819        |           |
-|**Average Standard Dev. avg(σ)**           |**62.310**  |**62.316**    |           |
-|Min Chi Squared min(𝛘<sup>2</sup>)         |161.035     |166.481       |           |
-|Max Chi Squared max(𝛘<sup>2</sup>)         |396.303     |376.735       |           |
-|**Average Chi squared avg(𝛘<sup>2</sup>)** |**254.944** |**254.991**   |           |
-|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |1.269%  |1.290%     |      |
-|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |1.991%  |1.941%     |      |
-|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |**1.595%**     |      |
+|Min Standard Dev. min(σ)                   |49.570      |50.401        |49.406    |
+|Max Standard Dev. max(σ)                   |77.763      |75.819        |78.532      |
+|**Average Standard Dev. avg(σ)**           |**62.310**  |**62.316**    |**62.320**|
+|Min Chi Squared min(𝛘<sup>2</sup>)         |161.035     |166.481       |159.968   |
+|Max Chi Squared max(𝛘<sup>2</sup>)         |396.303     |376.735       |404.176   |
+|**Average Chi squared avg(𝛘<sup>2</sup>)** |**254.944** |**254.991**   |**255.030** |
+|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |1.269%  |1.290%     |1.265% |
+|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |1.991%  |1.941%     |2.010% |
+|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |**1.595%** |**1.595%** |
 
