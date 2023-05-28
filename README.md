@@ -89,7 +89,7 @@ As a benchmark, the same indices were calculated on a sample of 1,000,000 random
 |Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |1.297%     |1.268%       |1.265%   |
 |Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |1.919%     |1.943%       |2.010%   |
 |**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |**1.595%**   |**1.595%**   |
-**
+
 
 #### 2) Input size: 1,000,000 bytes, all set to 0xFF 
 |**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
