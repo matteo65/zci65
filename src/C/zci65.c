@@ -153,7 +153,7 @@ int z65_decipherInt(int b) {
  * @param len: the number of byte to be enciphered
  */
 void z65_decipherArray(int8_t data[], int32_t len) {
-	for(int32_t i = 0; i < len; i++) {
+	for(int i = 0; i < len; i++) {
 		int p = ((k >> 24) ^ (k >> 16) ^ (k >> 8) ^ k) & 0xFF;
 		int t = s[p];
 		s[p] = k ^ (t * 5);
