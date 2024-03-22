@@ -117,3 +117,5 @@ As a benchmark, the same indices were calculated on a sample of 1,000,000 random
 |Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |1.991%  |1.941%     |2.010% |
 |**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |**1.595%** |**1.595%** |
 
+### Conclusions
+zci65 can be considered a valid alternative in implementations that require a fast and secure streaming encryption algorithm.
