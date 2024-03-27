@@ -17,7 +17,7 @@ int main(void)
 
 	printf("\n");
 
-	// Initi the encipher/decipher
+	// Init the encipher/decipher
 	z65_init(key);
 	
 	// Encipher the array
