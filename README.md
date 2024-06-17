@@ -44,7 +44,7 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 |Average Frequency μ = 11.65        |Average Frequency μ = 11.65        |
 |Variance σ<sup>2</sup> = 2318.26   |Variance σ<sup>2</sup> = 10.95                 |
 |Standard Deviation σ = 48.15       |Standard Deviation σ = 3.31        |
-|Chi squared 𝛘<sup>2</sup> = 2318.26 |Chi squared 𝛘<sup>2</sup>= 10.95              |
+|Chi squared 𝛘<sup>2</sup> = 50948.84 |Chi squared 𝛘<sup>2</sup>= 240.58              |
 |**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 413.35%**|**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 28.4%**|
 
 |shakespeare_romeo-and-juliet.pdf|shakespeare_romeo-and-juliet.pdf.zci65|
@@ -56,7 +56,7 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 |Average Frequency μ = 4157.68      |Average Frequency μ = 4157.68       |
 |Variance σ<sup>2</sup> = 5780361.23|Variance σ<sup>2</sup> = 4280.4                 |
 |Standard Deviation σ = 2404.24     |Standard Deviation σ = 65.42        |
-|Chi squared 𝛘<sup>2</sup> = 5780361.23 |Chi squared 𝛘<sup>2</sup> = 4280.4              |
+|Chi squared 𝛘<sup>2</sup> = 355913.05 |Chi squared 𝛘<sup>2</sup> = 263.56              |
 |**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 57.83%**|**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.57%**|
 
 |shakespeare_romeo-and-juliet.7z|shakespeare_romeo-and-juliet.7z.zci65|
@@ -68,7 +68,7 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 |Average Frequency μ = 3603.1       |Average Frequency μ = 3603.1
 |Variance σ<sup>2</sup> = 4038.68   |Variance σ<sup>2</sup> = 3638.29
 |Standard Deviation σ = 63.55       |Standard Deviation σ = 60.32
-|Chi squared 𝛘<sup>2</sup> = 4038.68  |Chi squared 𝛘<sup>2</sup> = 3638.29
+|Chi squared 𝛘<sup>2</sup> = 286.95  |Chi squared 𝛘<sup>2</sup> = 258.5
 |**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.76%** |**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.67%**
 
 In this case the file was zipped with the maximum compression level and also encrypted with a password (AES-256 algorithm). However, it is noted that the level of entropy is slightly lower than the same file encrypted with zci65; in fact the zci65 image is visibly darker.
