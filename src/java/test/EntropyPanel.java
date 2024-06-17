@@ -70,8 +70,8 @@ public class EntropyPanel extends JPanel {
 		int countMinFreq = 0;
 		int countMaxFreq = 0;
 
-		double variance = 0.0;
-		double chi_squared = 0.0;
+		double variance = 0.0d;
+		double chi_squared = 0.0d;
 
 		for(int i = 0; i < 256; i++) {
 			if(freq[i] < minFreq) {
@@ -87,9 +87,9 @@ public class EntropyPanel extends JPanel {
 				countMaxFreq++;
 			}
 			variance += (freq[i] - average) * (freq[i] - average);
-			chi_squared += (freq[i] - average) * (freq[i] - average) / 256.0;
+			chi_squared += (freq[i] - average) * (freq[i] - average) / average;
 		}
-		variance /= 256.0;
+		variance /= 256.0d;
 
 		double standard_deviation = Math.sqrt(variance);
 
