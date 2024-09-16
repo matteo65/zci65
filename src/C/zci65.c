@@ -104,9 +104,9 @@ void z65_init(int8_t k[]) {
  */
 int8_t z65_encipher(int8_t b) {
 	int p = ((k >> 24) ^ (k >> 16) ^ (k >> 8) ^ k) & 0xFF;
-	int r = s[p];
-	s[p] = k ^ (r * 5);
-	k = s[(b + c++) & 0xFF] ^ (k * 5);
+	uint32_t r = s[p];
+	s[p] = k ^ (r << 2) ^ (r >> 2);
+	k = s[(b + c++) & 0xFF] ^ (k << 2) ^ (k >> 2);
 	return (int8_t)((r >> 24) ^ (r >> 16) ^ (r >> 8) ^ r ^ b);
 }
 
@@ -117,9 +117,9 @@ int8_t z65_encipher(int8_t b) {
  */
 int z65_encipherInt(int b) {
 	int p = ((k >> 24) ^ (k >> 16) ^ (k >> 8) ^ k) & 0xFF;
-	int r = s[p];
-	s[p] = k ^ (r * 5);
-	k = s[(b + c++) & 0xFF] ^ (k * 5);
+	uint32_t r = s[p];
+	s[p] = k ^ (r << 2) ^ (r >> 2);
+	k = s[(b + c++) & 0xFF] ^ (k << 2) ^ (k >> 2);
 	return ((r >> 24) ^ (r >> 16) ^ (r >> 8) ^ r ^ b);
 }
 
@@ -131,9 +131,9 @@ int z65_encipherInt(int b) {
 void z65_encipherArray(int8_t data[], int32_t len) {
 	for(int i = 0; i < len; i++) {
 		int p = ((k >> 24) ^ (k >> 16) ^ (k >> 8) ^ k) & 0xFF;
-		int r = s[p];
-		s[p] = k ^ (r * 5);
-		k = s[(data[i] + c++) & 0xFF] ^ (k * 5);
+		uint32_t r = s[p];
+		s[p] = k ^ (r << 2) ^ (r >> 2);
+		k = s[(data[i] + c++) & 0xFF] ^ (k << 2) ^ (k >> 2);
 		data[i] = (int8_t)((r >> 24) ^ (r >> 16) ^ (r >> 8) ^ r ^ data[i]);
 	}
 }
@@ -147,9 +147,9 @@ void z65_encipherArray(int8_t data[], int32_t len) {
 void z65_encipherOut(const int8_t data[], int32_t len, int8_t output[]) {
 	for(int i = 0; i < len; i++) {
 		int p = ((k >> 24) ^ (k >> 16) ^ (k >> 8) ^ k) & 0xFF;
-		int r = s[p];
-		s[p] = k ^ (r * 5);
-		k = s[(data[i] + c++) & 0xFF] ^ (k * 5);
+		uint32_t r = s[p];
+		s[p] = k ^ (r << 2) ^ (r >> 2);
+		k = s[(data[i] + c++) & 0xFF] ^ (k << 2) ^ (k >> 2);
 		output[i] = (int8_t)((r >> 24) ^ (r >> 16) ^ (r >> 8) ^ r ^ data[i]);
 	}
 }
@@ -161,10 +161,10 @@ void z65_encipherOut(const int8_t data[], int32_t len, int8_t output[]) {
  */
 int8_t z65_decipher(int8_t b) {
 	int p = ((k >> 24) ^ (k >> 16) ^ (k >> 8) ^ k) & 0xFF;
-	int t = s[p];
-	s[p] = k ^ (t * 5);
+	uint32_t t = s[p];
+	s[p] = k ^ (t << 2) ^ (t >> 2);
 	int r = ((t >> 24) ^ (t >> 16) ^ (t >> 8) ^ t ^ b) & 0xFF;
-	k = s[(r + c++) & 0xFF] ^ (k * 5);
+	k = s[(r + c++) & 0xFF] ^ (k << 2) ^ (k >> 2);
 	return (int8_t)r;
 }
 
@@ -175,10 +175,10 @@ int8_t z65_decipher(int8_t b) {
  */
 int z65_decipherInt(int b) {
 	int p = ((k >> 24) ^ (k >> 16) ^ (k >> 8) ^ k) & 0xFF;
-	int t = s[p];
-	s[p] = k ^ (t * 5);
+	uint32_t t = s[p];
+	s[p] = k ^ (t << 2) ^ (t >> 2);
 	int r = ((t >> 24) ^ (t >> 16) ^ (t >> 8) ^ t ^ b);
-	k = s[(r + c++) & 0xFF] ^ (k * 5);
+	k = s[(r + c++) & 0xFF] ^ (k << 2) ^ (k >> 2);
 	return r;
 }
 
@@ -190,10 +190,10 @@ int z65_decipherInt(int b) {
 void z65_decipherArray(int8_t data[], int32_t len) {
 	for(int i = 0; i < len; i++) {
 		int p = ((k >> 24) ^ (k >> 16) ^ (k >> 8) ^ k) & 0xFF;
-		int t = s[p];
-		s[p] = k ^ (t * 5);
+		uint32_t t = s[p];
+		s[p] = k ^ (t << 2) ^ (t >> 2);
 		data[i] = (int8_t)((t >> 24) ^ (t >> 16) ^ (t >> 8) ^ t ^ data[i]);
-		k = s[(data[i] + c++) & 0xFF] ^ (k * 5);
+		k = s[(data[i] + c++) & 0xFF] ^ (k << 2) ^ (k >> 2);
 	}
 }
 
@@ -206,9 +206,9 @@ void z65_decipherArray(int8_t data[], int32_t len) {
 void z65_decipherOut(const int8_t data[], int32_t len, int8_t output[]) {
 	for(int i = 0; i < len; i++) {
 		int p = ((k >> 24) ^ (k >> 16) ^ (k >> 8) ^ k) & 0xFF;
-		int t = s[p];
-		s[p] = k ^ (t * 5);
+		uint32_t t = s[p];
+		s[p] = k ^ (t << 2) ^ (t >> 2);
 		output[i] = (int8_t)((t >> 24) ^ (t >> 16) ^ (t >> 8) ^ t ^ data[i]);
-		k = s[(output[i] + c++) & 0xFF] ^ (k * 5);
+		k = s[(output[i] + c++) & 0xFF] ^ (k << 2) ^ (k >> 2);
 	}
 }
