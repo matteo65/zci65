@@ -8,17 +8,17 @@ The code is very simple, the main functions are:
 public byte encipher(byte b) {
 	int p = ((k >>> 24) ^ (k >>> 16) ^ (k >>> 8) ^ k) & 0xFF;
 	int r = s[p];
-	s[p] = k ^ (r * 5);
-	k = s[(b + c++) & 0xFF] ^ (k * 5);
+	s[p] = k ^ (r << 2) ^ (r >>> 2);
+	k = s[(b + c++) & 0xFF] ^ (k << 2) ^ (k >>> 2);
 	return (byte)((r >>> 24) ^ (r >>> 16) ^ (r >>> 8) ^ r ^ b);
 }
 
 public byte decipher(byte b) {
 	int p = ((k >>> 24) ^ (k >>> 16) ^ (k >>> 8) ^ k) & 0xFF;
 	int t = s[p];
-	s[p] = k ^ (t * 5);
+	s[p] = k ^ (t << 2) ^ (t >>> 2);
 	int r = ((t >>> 24) ^ (t >>> 16) ^ (t >>> 8) ^ t ^ b) & 0xFF;
-	k = s[(r + c++) & 0xFF] ^ (k * 5);
+	k = s[(r + c++) & 0xFF] ^ (k << 2) ^ (k >>> 2);
 	return (byte)r;
 }
 ```
