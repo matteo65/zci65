@@ -116,8 +116,8 @@ public class Zci65 {
 	public byte encipher(byte b) {
 		int p = ((k >>> 24) ^ (k >>> 16) ^ (k >>> 8) ^ k) & 0xFF;
 		int r = s[p];
-		s[p] = k ^ (r * 5);
-		k = s[(b + c++) & 0xFF] ^ (k * 5);
+		s[p] = k ^ (r << 2) ^ (r >>> 2);
+		k = s[(b + c++) & 0xFF] ^ (k << 2) ^ (k >>> 2);
 		return (byte)((r >>> 24) ^ (r >>> 16) ^ (r >>> 8) ^ r ^ b);
 	}
 	
@@ -129,8 +129,8 @@ public class Zci65 {
 	public int encipher(int b) {
 		int p = ((k >>> 24) ^ (k >>> 16) ^ (k >>> 8) ^ k) & 0xFF;
 		int r = s[p];
-		s[p] = k ^ (r * 5);
-		k = s[(b + c++) & 0xFF] ^ (k * 5);
+		s[p] = k ^ (r << 2) ^ (r >>> 2);
+		k = s[(b + c++) & 0xFF] ^ (k << 2) ^ (k >>> 2);
 		return ((r >>> 24) ^ (r >>> 16) ^ (r >>> 8) ^ r ^ b);
 	}
 	
@@ -145,8 +145,8 @@ public class Zci65 {
 		for(int i = offset; i < len; i++) {
 			int p = ((k >>> 24) ^ (k >>> 16) ^ (k >>> 8) ^ k) & 0xFF;
 			int r = s[p];
-			s[p] = k ^ (r * 5);
-			k = s[(data[i] + c++) & 0xFF] ^ (k * 5);
+			s[p] = k ^ (r << 2) ^ (r >>> 2);
+			k = s[(data[i] + c++) & 0xFF] ^ (k << 2) ^ (k >>> 2);
 			data[i] = (byte)((r >>> 24) ^ (r >>> 16) ^ (r >>> 8) ^ r ^ data[i]);
 		}
 	}
@@ -162,8 +162,8 @@ public class Zci65 {
 		for(int i = 0; i < len; i++) {
 			int p = ((k >>> 24) ^ (k >>> 16) ^ (k >>> 8) ^ k) & 0xFF;
 			int r = s[p];
-			s[p] = k ^ (r * 5);
-			k = s[(data[i + offset] + c++) & 0xFF] ^ (k * 5);
+			s[p] = k ^ (r << 2) ^ (r >>> 2);
+			k = s[(data[i + offset] + c++) & 0xFF] ^ (k << 2) ^ (k >>> 2);
 			output[i] = (byte)((r >>> 24) ^ (r >>> 16) ^ (r >>> 8) ^ r ^ data[i + offset]);
 		}
 	}
@@ -176,9 +176,9 @@ public class Zci65 {
 	public byte decipher(byte b) {
 		int p = ((k >>> 24) ^ (k >>> 16) ^ (k >>> 8) ^ k) & 0xFF;
 		int t = s[p];
-		s[p] = k ^ (t * 5);
+		s[p] = k ^ (t << 2) ^ (t >>> 2);
 		int r = ((t >>> 24) ^ (t >>> 16) ^ (t >>> 8) ^ t ^ b) & 0xFF;
-		k = s[(r + c++) & 0xFF] ^ (k * 5);
+		k = s[(r + c++) & 0xFF] ^ (k << 2) ^ (k >>> 2);
 		return (byte)r;
 	}
 	
@@ -190,9 +190,9 @@ public class Zci65 {
 	public int decipher(int b) {
 		int p = ((k >>> 24) ^ (k >>> 16) ^ (k >>> 8) ^ k) & 0xFF;
 		int t = s[p];
-		s[p] = k ^ (t * 5);
+		s[p] = k ^ (t << 2) ^ (t >>> 2);
 		int r = ((t >>> 24) ^ (t >>> 16) ^ (t >>> 8) ^ t ^ b);
-		k = s[(r + c++) & 0xFF] ^ (k * 5);
+		k = s[(r + c++) & 0xFF] ^ (k << 2) ^ (k >>> 2);
 		return r;
 	}
 	
@@ -207,9 +207,9 @@ public class Zci65 {
 		for(int i = offset; i < len; i++) {
 			int p = ((k >>> 24) ^ (k >>> 16) ^ (k >>> 8) ^ k) & 0xFF;
 			int t = s[p];
-			s[p] = k ^ (t * 5);
+			s[p] = k ^ (t << 2) ^ (t >>> 2);
 			data[i] = (byte)((t >>> 24) ^ (t >>> 16) ^ (t >>> 8) ^ t ^ data[i]);
-			k = s[(data[i] + c++) & 0xFF] ^ (k * 5);
+			k = s[(data[i] + c++) & 0xFF] ^ (k << 2) ^ (k >>> 2);
 		}
 	}
 	
@@ -224,9 +224,9 @@ public class Zci65 {
 		for(int i = 0; i < len; i++) {
 			int p = ((k >>> 24) ^ (k >>> 16) ^ (k >>> 8) ^ k) & 0xFF;
 			int t = s[p];
-			s[p] = k ^ (t * 5);
+			s[p] = k ^ (t << 2) ^ (t >>> 2);
 			output[i] = (byte)((t >>> 24) ^ (t >>> 16) ^ (t >>> 8) ^ t ^ data[i + offset]);
-			k = s[(output[i] + c++) & 0xFF] ^ (k * 5);
+			k = s[(output[i] + c++) & 0xFF] ^ (k << 2) ^ (k >>> 2);
 		}
 	}
 
