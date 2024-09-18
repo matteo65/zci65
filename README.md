@@ -46,20 +46,24 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 |Standard Deviation σ = 48.148      |Standard Deviation σ = 3.493        |
 |Chi squared 𝛘<sup>2</sup> = 50948.838 |Chi squared 𝛘<sup>2</sup>= 268.211              |
 |Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 413.346%|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 29.991%|
+|Mean value of bytes = 93.703       |Mean value of bytes = 126.811|
 |Entropy = 4.226                    |Entropy = 7.934 |
 |Monte Carlo π = 4.0 (err 27.324%)  |Monte Carlo π = 3.074 (error 2.137%)|
 
 |shakespeare_romeo-and-juliet.pdf|shakespeare_romeo-and-juliet.pdf.zci65|
 |:--- |:--- |
 |![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/shakespeare_romeo-and-juliet.pdf.png)|![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/shakespeare_romeo-and-juliet.pdf.zci65.png)|
-|Length = 1064366 bytes             |Length = 1064366 bytes            |
-|Min Frequency = 2634 (7 instances) |Min Frequency = 3904 (4 instances)|
-|Max Frequency = 31436 (4 instances)|Max Frequency = 4313 (7 instances)|
-|Average Frequency μ = 4157.68      |Average Frequency μ = 4157.68       |
-|Variance σ<sup>2</sup> = 5780361.23|Variance σ<sup>2</sup> = 4280.4                 |
-|Standard Deviation σ = 2404.24     |Standard Deviation σ = 65.42        |
-|Chi squared 𝛘<sup>2</sup> = 355913.05 |Chi squared 𝛘<sup>2</sup> = 263.56              |
-|**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 57.83%**|**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.57%**|
+|Length = 1064366 bytes              |Length = 1064366 bytes             |
+|Min Frequency = 2634 (7 instances)  |Min Frequency = 3933 (10 instances) |
+|Max Frequency = 31436 (4 instances) |Max Frequency = 4369 (6 instances)  |
+|Average Frequency μ = 4157.68       |Average Frequency μ = 4157.68       |
+|Variance σ<sup>2</sup> = 5780361.233|Variance σ<sup>2</sup> = 5183.101   |
+|Standard Deviation σ = 2404.238     |Standard Deviation σ = 65.42        |
+|Chi squared 𝛘<sup>2</sup> = 355913.054 |Chi squared 𝛘<sup>2</sup> = 319.138 |
+|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 57.826%|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.732%|
+|Mean value of bytes = 115.424       |Mean value of bytes = 127.45|
+|Entropy = 7.866                     |Entropy = 8.000 |
+|Monte Carlo π = 3.31 (err 5.36%)    |Monte Carlo π = 3.142 (error 0.001%)|
 
 |shakespeare_romeo-and-juliet.7z|shakespeare_romeo-and-juliet.7z.zci65|
 |:--- |:--- |
