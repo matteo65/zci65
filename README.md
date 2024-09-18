@@ -39,13 +39,15 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 |:--- |:--- |
 |![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/lorem_ipsum_txt.png)|![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/lorem_ipsum_zci65.png)|
 |Length = 2982 bytes                |Length = 2982 bytes              |
-|Min Frequency = 0 (214 instances)  |Min Frequency = 4 (12 instances) |
-|Max Frequency = 441 (13 instances) |Max Frequency = 22 (14 instances)|
-|Average Frequency μ = 11.65        |Average Frequency μ = 11.65        |
-|Variance σ<sup>2</sup> = 2318.26   |Variance σ<sup>2</sup> = 10.95                 |
-|Standard Deviation σ = 48.15       |Standard Deviation σ = 3.31        |
-|Chi squared 𝛘<sup>2</sup> = 50948.84 |Chi squared 𝛘<sup>2</sup>= 240.58              |
-|**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 413.35%**|**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 28.4%**|
+|Min Frequency = 0 (214 instances)  |Min Frequency = 3 (11 instances) |
+|Max Frequency = 441 (13 instances) |Max Frequency = 25 (10 instances)|
+|Average Frequency μ = 11.648       |Average Frequency μ = 11.648        |
+|Variance σ<sup>2</sup> = 2318.259  |Variance σ<sup>2</sup> = 12.205                 |
+|Standard Deviation σ = 48.148      |Standard Deviation σ = 3.493        |
+|Chi squared 𝛘<sup>2</sup> = 50948.838 |Chi squared 𝛘<sup>2</sup>= 268.211              |
+|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 413.346%|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 29.991%|
+|Entropy = 4.226                    |Entropy = 7.934 |
+|Monte Carlo π = 4.0 (err 27.324%)  |Monte Carlo π = 3.074 (error 2.137%)|
 
 |shakespeare_romeo-and-juliet.pdf|shakespeare_romeo-and-juliet.pdf.zci65|
 |:--- |:--- |
