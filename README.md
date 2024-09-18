@@ -68,14 +68,17 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 |shakespeare_romeo-and-juliet.7z|shakespeare_romeo-and-juliet.7z.zci65|
 |:--- |:--- |
 |![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/shakespeare_romeo-and-juliet.7z.png)|![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/shakespeare_romeo-and-juliet.7z.zci65.png)|
-|Length = 922394 bytes              |Length = 922394 bytes
-|Min Frequency = 3423 (5 instances) |Min Frequency = 3369 (6 instances)
-|Max Frequency = 3769 (5 instances) |Max Frequency = 3755 (8 instances)
-|Average Frequency μ = 3603.1       |Average Frequency μ = 3603.1
-|Variance σ<sup>2</sup> = 4038.68   |Variance σ<sup>2</sup> = 3638.29
-|Standard Deviation σ = 63.55       |Standard Deviation σ = 60.32
-|Chi squared 𝛘<sup>2</sup> = 286.95  |Chi squared 𝛘<sup>2</sup> = 258.5
-|**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.76%** |**Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.67%**
+|Length = 922394 bytes              |Length = 922394 bytes                 |
+|Min Frequency = 3423 (5 instances) |Min Frequency = 3469 (5 instances)    |
+|Max Frequency = 3769 (5 instances) |Max Frequency = 3750 (8 instances)    |
+|Average Frequency μ = 3603.102     |Average Frequency μ = 3603.102        |
+|Variance σ<sup>2</sup> = 4038.685  |Variance σ<sup>2</sup> = 3427.122     |
+|Standard Deviation σ = 63.551      |Standard Deviation σ = 58.542         |
+|Chi squared 𝛘<sup>2</sup> = 286.948  |Chi squared 𝛘<sup>2</sup> = 243.497 |
+|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.764% |Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.625% |
+|Mean value of bytes = 127.515       |Mean value of bytes = 127.386|
+|Entropy = 8.000                     |Entropy = 8.000 |
+|Monte Carlo π = 3.143 (err 0.046%)  |Monte Carlo π = 3.144 (error 0.087%)|
 
 In this case the file was zipped with the maximum compression level and also encrypted with a password (AES-256 algorithm). However, it is noted that the level of entropy is slightly lower than the same file encrypted with zci65; in fact the zci65 image is visibly darker.
 
