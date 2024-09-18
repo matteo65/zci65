@@ -48,7 +48,7 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 |Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 413.346%|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 29.991%|
 |Mean value of bytes = 93.703       |Mean value of bytes = 126.811|
 |Entropy = 4.226                    |Entropy = 7.934 |
-|Monte Carlo π = 4.0 (err 27.324%)  |Monte Carlo π = 3.074 (error 2.137%)|
+|Monte Carlo π = 4.0 (error 27.324%)  |Monte Carlo π = 3.074 (error 2.137%)|
 
 |shakespeare_romeo-and-juliet.pdf|shakespeare_romeo-and-juliet.pdf.zci65|
 |:--- |:--- |
@@ -63,7 +63,7 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 |Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 57.826%|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.732%|
 |Mean value of bytes = 115.424       |Mean value of bytes = 127.45|
 |Entropy = 7.866                     |Entropy = 8.000 |
-|Monte Carlo π = 3.31 (err 5.36%)    |Monte Carlo π = 3.142 (error 0.001%)|
+|Monte Carlo π = 3.31 (error 5.36%)    |Monte Carlo π = 3.142 (error 0.001%)|
 
 |shakespeare_romeo-and-juliet.7z|shakespeare_romeo-and-juliet.7z.zci65|
 |:--- |:--- |
@@ -78,9 +78,9 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 |Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.764% |Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.625% |
 |Mean value of bytes = 127.515       |Mean value of bytes = 127.386|
 |Entropy = 8.000                     |Entropy = 8.000 |
-|Monte Carlo π = 3.143 (err 0.046%)  |Monte Carlo π = 3.144 (error 0.087%)|
+|Monte Carlo π = 3.143 (error 0.046%)  |Monte Carlo π = 3.144 (error 0.087%)|
 
-In this case the file was zipped with the maximum compression level and also encrypted with a password (AES-256 algorithm). However, it is noted that the level of entropy is slightly lower than the same file encrypted with zci65; in fact the zci65 image is visibly darker.
+In this case the file was zipped with the maximum compression level and also encrypted with a password (AES-256 algorithm). However, it is noted that the coefficient of variation is upper than the same file encrypted with zci65; in fact the zci65 image is visibly darker.
 
 ### Statistical analysis of encryption output
 The following tables show the values of **Standard Deviation**, **Chi Squared** and **Coefficient of Variation** calculated by analyzing 1,000,000 output arrays produced from 1 input array with 1,000,000 random keys by the zci65 and salsa20 algorithms.
