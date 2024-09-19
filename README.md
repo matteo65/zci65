@@ -81,7 +81,7 @@ A good indicator of the degree of chaos of a sequence of bytes (cryptographic ou
 |Entropy = 8.000                     |Entropy = 8.000 |
 |Monte Carlo π = 3.143 (error 0.046%)  |Monte Carlo π = 3.1443 (error 0.087%)|
 
-In this case the file was zipped with the maximum compression level and also encrypted with a password (AES-256 algorithm). However, it is noted that the coefficient of variation is upper than the same file encrypted with zci65; in fact the zci65 image is visibly darker.
+In this case the file was zipped with the maximum compression level and also encrypted with a password (AES-256 algorithm). The statistical indicators and the degree of darkness of the images are very close.
 
 ### Statistical analysis of the encryption output
 The following tables show the values of **Standard Deviation**, **Chi Squared** and **Coefficient of Variation** calculated by analyzing 1,000,000 output arrays produced from 1 input array with 1,000,000 random keys by the zci65 and salsa20 algorithms.
