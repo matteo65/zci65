@@ -30,10 +30,11 @@ The main properties of a good encryption algorithm are:
 
 Point 1 can be verified with statistical analysis; point 2 by measuring the times and comparing them with benchmark values, while point 3 can only be verified by an independent cryptographic analysis and therefore I invite the researchers to consider zci65 and confirm or deny this feature!
 
-### Entropy of encryption
+### Characteristics of the encryption output
 This tool shows the byte distribution of a file on a square window displaying a 16x16 matrix (one element for each byte). 
 The least frequent byte is displayed in white, the most frequent byte in black, the others are proportionally distributed in shades of gray (total 256 shades).
 The result is that a tendentially dark image corresponds to a higher chaotic level of the analyzed data.
+A good indicator of the degree of chaos of a sequence of bytes (cryptographic output) is the estimate of pi: each successive sequence of six bytes is used as 24 bit X and Y co-ordinates within a square. If the distance of the randomly-generated point is less than the radius of a circle inscribed within the square, the six-byte sequence is considered a “hit”. The percentage of hits is used to calculate the value of Pi.
 
 |lorem_ipsum.txt|lorem_ipsum.txt.zci65|
 |:--- |:--- |
@@ -82,7 +83,7 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 
 In this case the file was zipped with the maximum compression level and also encrypted with a password (AES-256 algorithm). However, it is noted that the coefficient of variation is upper than the same file encrypted with zci65; in fact the zci65 image is visibly darker.
 
-### Statistical analysis of encryption output
+### Statistical analysis of the encryption output
 The following tables show the values of **Standard Deviation**, **Chi Squared** and **Coefficient of Variation** calculated by analyzing 1,000,000 output arrays produced from 1 input array with 1,000,000 random keys by the zci65 and salsa20 algorithms.
 As a benchmark, the same indices were calculated on a sample of 1,000,000 random arrays.
 
