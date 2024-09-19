@@ -47,7 +47,7 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 |Chi squared 𝛘<sup>2</sup> = 50948.838 |Chi squared 𝛘<sup>2</sup>= 268.211              |
 |Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 413.346%|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 29.991%|
 |Mean value of bytes = 93.703       |Mean value of bytes = 126.811|
-|Entropy = 4.226                    |Entropy = 7.934 |
+|Entropy = 4.226                    |Entropy = 7.934  |
 |Monte Carlo π = 4.0 (error 27.324%)  |Monte Carlo π = 3.0744 (error 2.137%)|
 
 |shakespeare_romeo-and-juliet.pdf|shakespeare_romeo-and-juliet.pdf.zci65|
