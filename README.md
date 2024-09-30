@@ -83,9 +83,10 @@ A good indicator of the degree of chaos of a sequence of bytes (cryptographic ou
 
 In this case the file was zipped with the maximum compression level and also encrypted with a password (AES-256 algorithm). The statistical indicators and the degree of darkness of the images are very close.
 
-### Statistical analysis of the encryption output
-The following tables show the values of **Standard Deviation**, **Chi Squared** and **Coefficient of Variation** calculated by analyzing 1,000,000 output arrays produced from 1 input array with 1,000,000 random keys by the zci65 and salsa20 algorithms.
+### Randomness analysis of the encryption output
+The following tables show the values of byte frequency tests (**Standard Deviation**, **Chi Squared**, **Coefficient of Variation** and **Mean Bytes Value**) and distribution-dependent test (**Monte Carlo Pi 2D**, **Monte Carlo PI 3D**, **Mean of All Adjacent Byte Pairs** and **Number of Collisions 4 bytes**, calculated by analyzing 1,000 output arrays produced from 1 input array with 1,000,000 random keys by the zci65 and salsa20 algorithms.
 As a benchmark, the same indices were calculated on a sample of 1,000,000 random arrays.
+For more information about test see: https://github.com/matteo65/VisualRT
 
 #### 1) Input size: 1,000,000 bytes, all set to 0x00 
 |**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
