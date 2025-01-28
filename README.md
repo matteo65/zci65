@@ -27,8 +27,9 @@ The main properties of a good encryption algorithm are:
 1. Produce an output indistinguishable from a random sequence of bytes 
 2. Do it in the shortest possible time (and this is especially true for a stream cipher) 
 3. Make it impossible to predict the output sequence starting from the data already produced.
+4. Produce a random output with any key used for encryption
 
-Point 1 can be verified with statistical analysis; point 2 by measuring the times and comparing them with benchmark values, while point 3 can only be verified by an independent cryptographic analysis and therefore I invite the researchers to consider zci65 and confirm or deny this feature!
+Points 1 and 4 can be verified with statistical analysis; point 2 by measuring the times and comparing them with benchmark values, while point 3 can only be verified by an independent cryptographic analysis and therefore I invite the researchers to consider zci65 and confirm or deny this feature!
 
 ### Characteristics of the encryption output
 This tool shows the byte distribution of a file on a square window displaying a 16x16 matrix (one element for each byte). 
