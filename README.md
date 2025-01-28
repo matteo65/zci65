@@ -85,7 +85,7 @@ In this case the file was zipped with the maximum compression level and also enc
 
 ### Randomness analysis of the encryption output
 In this chapter, the output produced by cryptography is analyzed. In particular, two main groups of indicators are presented: frequency-based indexes that ignore byte positions and indexes that depend on the distribution of bytes.
-### A) Byte Frequency Indexes
+#### A) Byte Frequency Indexes
 This group focuses on analyzing the frequency of byte occurrences within the data, without considering the order in which the bytes appear. These tests are designed to assess various statistical properties of the byte frequency. The tests in this group are:
 
 1.	**Variance σ<sup>2</sup>**: This test calculates the variance of the byte frequencies, measuring the spread or dispersion of frequencies from their mean.
@@ -94,7 +94,7 @@ This group focuses on analyzing the frequency of byte occurrences within the dat
 4.	**Chi-Square 𝛘<sup>2</sup>**: This statistical test compares the observed byte frequencies to an expected uniform distribution, assessing whether the data deviates from randomness.
 5.	**Mean Byte Value (Sum)**: This test computes the sum of all byte values in the dataset, providing a raw measure of the average byte value. If the data are close to random, this should be about 127.5.
 
-### B) Distribution-Dependent Indexes
+#### B) Distribution-Dependent Indexes
 The second group of indexes examines the actual distribution of bytes within the data, meaning that the relative positions and sequences of bytes are considered. These indexes are more focused on patterns that arise from how the bytes are ordered. The tests in this group are:
 
 6.	**Pi Estimation Using Monte Carlo in 2D**: One of the more intriguing tests in VisualRT is the estimation of π using the contents of the file. The file is interpreted as a series of 6-byte sequences, with the first 3 bytes used as the x-coordinate and the next 3 bytes as the y-coordinate on a 2D plane. The number of points that fall inside a unit circle (with radius 0xFFFFFF) is used to estimate π, drawing from **Monte Carlo** methods. The closer the estimate is to the true value of π, the more uniform the distribution of bytes in the file might be.
@@ -102,7 +102,7 @@ The second group of indexes examines the actual distribution of bytes within the
 8.	**Mean of All Adjacent Byte Pairs**: This test computes the mean value of every pair of adjacent bytes, providing insight into how consecutive byte values are related. For a file with a truly random byte distribution, the expected average should approach 32767.5, which is the midpoint of the possible 16-bit range. Deviations from this expected average can indicate non-random patterns or structured data, helping to assess the file's randomness level.
 9.	**Number of Collisions of 4-Byte Sequences**: This test analyzes the file by dividing it into 4-byte sequences and counting how many times each sequence appears (collisions). Each 4-byte sequence is treated as a unique 32-bit value, with possible values ranging from 0 to 2<sup>32</sup>-1. For a file with a completely random byte distribution, the expected number of collisions can be estimated using the **birthday problem** analogy. ​This test helps evaluate the randomness of the file. A number of collisions significantly different from the expected number could indicate non-random patterns or redundancy in the data, while a number of collisions close to the expected value suggests a higher degree of randomness.
 
-The following tables show the values ​​of the above mentioned indices calculated by analyzing 1,000 output arrays produced from 1 input array with 1,000,000 random keys by the zci65 and salsa20 algorithms.
+The following tables show the values ​​of the above mentioned indices calculated by analyzing 1,000 enchiper outputs arrays produced from 1 input array with 1,000,000 random keys by the zci65 and salsa20 algorithms.
 As a benchmark, the same indices were calculated on a sample of 1,000,000 random arrays.
 For more information about test see: https://github.com/matteo65/VisualRT
 
