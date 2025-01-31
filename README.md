@@ -110,17 +110,36 @@ The input is 1,000,000 bytes long and 10,000 encryptions were performed using di
 The benchmark was performed by analyzing a random sequence of bytes produced by a secure random generator.
 
 #### 1) Input size: 1,000,000 bytes, all set to 0x00 
-|**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
-|:---                                       |---:        |---:          |---:       |
-|Min Standard Dev. min(σ)                   |50.664      |49.544        |49.406     |
-|Max Standard Dev. max(σ)                   |74.976      |75.912        |78.532     |
-|**Average Standard Dev. avg(σ)**           |**62.315**  |**62.318**    |**62.320**  |
-|Min Chi Squared min(𝛘<sup>2</sup>)         |168.223     |160.862       |159.968    |
-|Max Chi Squared max(𝛘<sup>2</sup>)         |368.408     |377.662       |404.176    |
-|**Average Chi squared avg(𝛘<sup>2</sup>)** |**254.987** |**255.013**   |**255.030** |
-|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |1.297%     |1.268%       |1.265%   |
-|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |1.919%     |1.943%       |2.010%   |
-|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |**1.595%**   |**1.595%**   |
+|**Index**                      |**zci65**  |**Salsa20** |**Benchmark**|
+|:---                           |---:       |---:        |---:         |
+|Min Standard Deviation min(σ)  |   51.5054 |   51.7363  |   52.7582   |
+|Max Standard Deviation max(σ)  |   72.7786 |   72.5432  |   73.7579   |
+|**Avg Standard Deviationmi avg(σ)**|   **62.3012** |   **62.3333**  |   **62.2891**   |
+|Min Chi Squared min(𝛘<sup>2</sup>)      |  173.8542 |  175.4168  |  182.4148   |
+|Max Chi Squared max(𝛘<sup>2</sup>)      |  347.1258 |  344.8842  |  356.5312   |
+|**Avg Chi Squared avg(𝛘<sup>2</sup>)**      |  **254.8719** |  **255.1253**  |  **254.7649**   |
+|Min Coef.Variation min(<sup>σ</sup>/<sub>μ</sub>)   |    1.3185 |    1.3245  |    1.3506   |
+|Max Coef.Variation max(<sup>σ</sup>/<sub>μ</sub>)   |    1.8631 |    1.8571  |    1.8882   |
+|**Avg Coef.Variation avg(<sup>σ</sup>/<sub>μ</sub>)**   |    **1.5949** |    **1.5957**  |    **1.5946**   |
+|Min Entropy           |    7.9997 |    7.9998  |    7.9997   |
+|Max Entropy           |    7.9999 |    7.9999  |    7.9999   |
+|**Avg Entropy**           |    **7.9998** |    **7.9998**  |    **7.9998**   |
+|Min Mean Bytes Value  |  127.2232 |  127.2365  |  127.2328   |
+|Max Mean Bytes Value  |  127.7899 |  127.7811  |  127.7525   |
+|**Avg Mean Bytes Value**  |  **127.5016** |  **127.5**     |  **127.5005**   |
+|Min π 2D             |    3.1253 |    3.1236  |    3.1215   |
+|Max π 2D             |    3.1579 |    3.157   |    3.1604   |
+|**Avg π 2D**             |    **3.1416** |    **3.1416**  |    **3.1416**   |
+|Min π 3D             |    3.1093 |    3.1028  |    3.1021   |
+|Max π 3D             |    3.1735 |    3.1724  |    3.1759   |
+|**Avg π 3D**             |    **3.1416** |    **3.1415**  |    **3.1416**   |
+|Min collisions 32     |    0      |    0       |    0        |
+|Max collisions 32     |   19      |   20       |   20        |
+|**Avg collisions 32**     |    **7.2442** |    **7.2333**  |    **7.2348**   |
+|Min Mean 2Bytes Value |32696.3555 |32699.7777  |32698.8275   |
+|Max Mean 2Bytes Value |32841.9673 |32839.778   |32832.3744   |
+|**Avg Mean 2Bytes Value** |**32767.9196** |**32767.4991**  |**32767.6308**   |
+
 
 
 #### 2) Input size: 1,000,000 bytes, all set to 0xFF 
