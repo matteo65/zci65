@@ -60,47 +60,57 @@ The result is that a tendentially dark image corresponds to a higher chaotic lev
 |lorem_ipsum.txt|lorem_ipsum.txt.zci65|
 |:--- |:--- |
 |![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/lorem_ipsum_txt.png)|![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/lorem_ipsum_zci65.png)|
-|Length = 2982 bytes                |Length = 2982 bytes              |
-|Min Frequency = 0 (214 instances)  |Min Frequency = 3 (11 instances) |
-|Max Frequency = 441 (13 instances) |Max Frequency = 25 (10 instances)|
-|Average Frequency μ = 11.648       |Average Frequency μ = 11.648        |
-|Variance σ<sup>2</sup> = 2318.259  |Variance σ<sup>2</sup> = 12.205                 |
-|Standard Deviation σ = 48.148      |Standard Deviation σ = 3.493        |
-|Chi squared 𝛘<sup>2</sup> = 50948.838 |Chi squared 𝛘<sup>2</sup>= 268.211              |
-|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 413.346%|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 29.991%|
-|Mean value of bytes = 93.703       |Mean value of bytes = 126.811|
-|Entropy = 4.226                    |Entropy = 7.934  |
-|Monte Carlo π = 4.0 (error 27.324%)  |Monte Carlo π = 3.0744 (error 2.137%)|
+|Length = 2982.0 bytes                                                    |Length = 2982.0 bytes                                                   |
+|Min Frequency = 0 (214 instances)                                        |Min Frequency = 3 (11 instances)                                        |
+|Max Frequency = 441 (13 instances)                                       |Max Frequency = 25 (10 instances)                                       |
+|Average Frequency μ = 11.6484                                            |Average Frequency μ = 11.6484                                           |
+|Arithmetic mean value of bytes = 93.7032 (expected = 127.5)              |Arithmetic mean value of bytes = 126.8112 (expected = 127.5)            |
+|Variance σ<sup>2</sup> = 2318.2592                                       |Variance σ<sup>2</sup> = 12.2045                                        |
+|Standard Deviation σ = 48.1483                                           |Standard Deviation σ = 3.4935                                           |
+|Chi squared 𝛘<sup>2</sup> = 50948.8384                                   |Chi squared 𝛘<sup>2</sup> = 268.2213                                     |
+|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 413.3456%           |Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 29.9911%           |
+|Entropy = 4.2259 bit                                                     |Entropy = 7.9342 bit                                                    |
+|Monte Carlo for π 2D = 4.0 (error 27.324%)                               |Monte Carlo for π 2D = 3.0744 (error 2.1373%)                           |
+|Monte Carlo for π 3D = 6.0 (error 90.9859%)                              |Monte Carlo for π 3D = 3.0453 (error 3.0645%)                           |
+|Collisions 32 = 161 (expected = 0.0)                                     |Collisions 32 = 0 (expected = 0.0)                                      |
+|Arithmetic mean value of bytes pairs = 24083.2637 (expected = 32767.5)   |Arithmetic mean value of bytes pairs = 32584.9742 (expected = 32767.5)  |
+
 
 |shakespeare_romeo-and-juliet.pdf|shakespeare_romeo-and-juliet.pdf.zci65|
 |:--- |:--- |
 |![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/shakespeare_romeo-and-juliet.pdf.png)|![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/shakespeare_romeo-and-juliet.pdf.zci65.png)|
-|Length = 1064366 bytes              |Length = 1064366 bytes             |
-|Min Frequency = 2634 (7 instances)  |Min Frequency = 3933 (10 instances) |
-|Max Frequency = 31436 (4 instances) |Max Frequency = 4369 (6 instances)  |
-|Average Frequency μ = 4157.68       |Average Frequency μ = 4157.68       |
-|Variance σ<sup>2</sup> = 5780361.233|Variance σ<sup>2</sup> = 5183.101   |
-|Standard Deviation σ = 2404.238     |Standard Deviation σ = 65.42        |
-|Chi squared 𝛘<sup>2</sup> = 355913.054 |Chi squared 𝛘<sup>2</sup> = 319.138 |
-|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 57.826%|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.732%|
-|Mean value of bytes = 115.424       |Mean value of bytes = 127.45|
-|Entropy = 7.866                     |Entropy = 8.000 |
-|Monte Carlo π = 3.31 (error 5.36%)    |Monte Carlo π = 3.1416 (error 0.001%)|
+|Length = 1064366.0 bytes                                                  |Length = 1064366.0 bytes                                                |
+|Min Frequency = 2634 (7 instances)                                        |Min Frequency = 3933 (10 instances)                                     |
+|Max Frequency = 31436 (4 instances)                                       |Max Frequency = 4369 (6 instances)                                      |
+|Average Frequency μ = 4157.6797                                           |Average Frequency μ = 4157.6797                                         |
+|Arithmetic mean value of bytes = 115.4236 (expected = 127.5)              |Arithmetic mean value of bytes = 127.4504 (expected = 127.5)            |
+|Variance σ<sup>2</sup> = 5780361.2333                                     |Variance σ<sup>2</sup> = 5183.1005                                      |
+|Standard Deviation σ = 2404.2382                                          |Standard Deviation σ = 71.9938                                          |
+|Chi squared 𝛘<sup>2</sup> = 355913.0541                                   |Chi squared 𝛘<sup>2</sup> = 319.138                                     |
+|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 57.8264%             |Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.7316%            |
+|Entropy = 7.8662 bit                                                      |Entropy = 7.9998 bit                                                    |
+|Monte Carlo for π 2D = 3.31 (error 5.3602%)                               |Monte Carlo for π 2D = 3.1416 (error 8.0E-4%)                           |
+|Monte Carlo for π 3D = 3.6879 (error 17.3883%)                            |Monte Carlo for π 3D = 3.1448 (error 0.1036%)                           |
+|Collisions 32 = 33997 (expected = 8.2425)                                 |Collisions 32 = 5 (expected = 8.2425)                                   |
+|Arithmetic mean value of bytes pairs = 29663.892 (expected = 32767.5)     |Arithmetic mean value of bytes pairs = 32754.72 (expected = 32767.5)    |
 
 |shakespeare_romeo-and-juliet.7z|shakespeare_romeo-and-juliet.7z.zci65|
 |:--- |:--- |
 |![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/shakespeare_romeo-and-juliet.7z.png)|![Alt Text](https://raw.githubusercontent.com/matteo65/zci65/main/Resource/shakespeare_romeo-and-juliet.7z.zci65.png)|
-|Length = 922394 bytes              |Length = 922394 bytes                 |
-|Min Frequency = 3423 (5 instances) |Min Frequency = 3469 (5 instances)    |
-|Max Frequency = 3769 (5 instances) |Max Frequency = 3750 (8 instances)    |
-|Average Frequency μ = 3603.102     |Average Frequency μ = 3603.102        |
-|Variance σ<sup>2</sup> = 4038.685  |Variance σ<sup>2</sup> = 3427.122     |
-|Standard Deviation σ = 63.551      |Standard Deviation σ = 58.542         |
-|Chi squared 𝛘<sup>2</sup> = 286.948  |Chi squared 𝛘<sup>2</sup> = 243.497 |
-|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.764% |Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.625% |
-|Mean value of bytes = 127.515       |Mean value of bytes = 127.386|
-|Entropy = 8.000                     |Entropy = 8.000 |
-|Monte Carlo π = 3.143 (error 0.046%)  |Monte Carlo π = 3.1443 (error 0.087%)|
+|Length = 922394.0 bytes                                                    |Length = 922394.0 bytes                                                  |
+|Min Frequency = 3423 (5 instances)                                         |Min Frequency = 3469 (5 instances)                                       |
+|Max Frequency = 3769 (5 instances)                                         |Max Frequency = 3750 (8 instances)                                       |
+|Average Frequency μ = 3603.1016                                            |Average Frequency μ = 3603.1016                                          |
+|Arithmetic mean value of bytes = 127.5147 (expected = 127.5)               |Arithmetic mean value of bytes = 127.3863 (expected = 127.5)             |
+|Variance σ<sup>2</sup> = 4038.685                                          |Variance σ<sup>2</sup> = 3427.1225                                       |
+|Standard Deviation σ = 63.5506                                             |Standard Deviation σ = 58.5416                                           |
+|Chi squared 𝛘<sup>2</sup> = 286.9482                                       |Chi squared 𝛘<sup>2</sup> = 243.4967                                     |
+|Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.7638%               |Coefficient of Variation <sup>σ</sup>/<sub>μ</sub> = 1.6248%             |
+|Entropy = 7.9998 bit                                                       |Entropy = 7.9998 bit                                                     |
+|Monte Carlo for π 2D = 3.143 (error 0.0457%)                               |Monte Carlo for π 2D = 3.1443 (error 0.0871%)                            |
+|Monte Carlo for π 3D = 3.1514 (error 0.312%)                               |Monte Carlo for π 3D = 3.143 (error 0.0455%)                             |
+|Collisions 32 = 6 (expected = 6.1903)                                      |Collisions 32 = 7 (expected = 6.1903)                                    |
+|Arithmetic mean value of bytes pairs = 32771.2992 (expected = 32767.5)     |Arithmetic mean value of bytes pairs = 32738.2584 (expected = 32767.5)   |
 
 In this case the file was zipped with the maximum compression level and also encrypted with a password (AES-256 algorithm). The statistical indicators and the degree of darkness of the images are very close.
 
