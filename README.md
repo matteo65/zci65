@@ -118,12 +118,12 @@ The benchmark was performed by analyzing a random sequence of bytes produced by 
 |Min Chi Squared min(𝛘<sup>2</sup>)      |  173.8542 |  175.4168  |  182.4148   |
 |Max Chi Squared max(𝛘<sup>2</sup>)      |  347.1258 |  344.8842  |  356.5312   |
 |**Avg Chi Squared avg(𝛘<sup>2</sup>)**      |  **254.8719** |  **255.1253**  |  **254.7649**   |
-|Min Coef.Variation min(<sup>σ</sup>/<sub>μ</sub>)   |    1.3185 |    1.3245  |    1.3506   |
-|Max Coef.Variation max(<sup>σ</sup>/<sub>μ</sub>)   |    1.8631 |    1.8571  |    1.8882   |
-|**Avg Coef.Variation avg(<sup>σ</sup>/<sub>μ</sub>)**   |    **1.5949** |    **1.5957**  |    **1.5946**   |
-|Min Entropy           |    7.9997 |    7.9998  |    7.9997   |
-|Max Entropy           |    7.9999 |    7.9999  |    7.9999   |
-|**Avg Entropy**           |    **7.9998** |    **7.9998**  |    **7.9998**   |
+|Min Coef.Variation min(<sup>σ</sup>/<sub>μ</sub>)   |    1.3185% |    1.3245%  |    1.3506%   |
+|Max Coef.Variation max(<sup>σ</sup>/<sub>μ</sub>)   |    1.8631% |    1.8571%  |    1.8882%   |
+|**Avg Coef.Variation avg(<sup>σ</sup>/<sub>μ</sub>)**   |    **1.5949%** |    **1.5957%**  |    **1.5946%**   |
+|Min Entropy           |    7.9997 bit|    7.9998 bit |    7.9997 bit  |
+|Max Entropy           |    7.9999 bit|    7.9999 bit |    7.9999 bit  |
+|**Avg Entropy**           |    **7.9998** bit|    **7.9998**  bit|    **7.9998**  bit |
 |Min Mean Bytes Value  |  127.2232 |  127.2365  |  127.2328   |
 |Max Mean Bytes Value  |  127.7899 |  127.7811  |  127.7525   |
 |**Avg Mean Bytes Value**  |  **127.5016** |  **127.5**     |  **127.5005**   |
@@ -151,12 +151,12 @@ The benchmark was performed by analyzing a random sequence of bytes produced by 
 |Min Chi Squared min(𝛘<sup>2</sup>)| 174.3718|  175.4168  | 182.4148 |
 |Max Chi Squared max(𝛘<sup>2</sup>)| 357.354 |  344.8842  | 356.5312 |
 |**Avg Chi Squared avg(𝛘<sup>2</sup>)**| **255.0224**|  **255.1253**  | **254.7649** |
-|Min Coef.Variation min(<sup>σ</sup>/<sub>μ</sub>) | 1.3205 | 1.3245  |    1.3506 |
-|Max Coef.Variation max(<sup>σ</sup>/<sub>μ</sub>) | 1.8904 | 1.8571  |    1.8882 |
-|**Avg Coef.Variation avg(<sup>σ</sup>/<sub>μ</sub>)** | **1.5954** | **1.5957**  |    **1.5946** |
-|Min Entropy                |7.9997  |       7.9998   |          7.9997|
-|Max Entropy                |7.9999  |       7.9999   |          7.9999|
-|**Avg Entropy**                |**7.9998**  |       **7.9998**   |          **7.9998**|
+|Min Coef.Variation min(<sup>σ</sup>/<sub>μ</sub>) | 1.3205% | 1.3245%  |    1.3506% |
+|Max Coef.Variation max(<sup>σ</sup>/<sub>μ</sub>) | 1.8904% | 1.8571%  |    1.8882% |
+|**Avg Coef.Variation avg(<sup>σ</sup>/<sub>μ</sub>)** | **1.5954%** | **1.5957%**  |    **1.5946%** |
+|Min Entropy                |7.9997 bit |       7.9998 bit  |          7.9997 bit|
+|Max Entropy                |7.9999 bit |       7.9999 bit  |          7.9999 bit|
+|**Avg Entropy**                |**7.9998** bit |       **7.9998**  bit |          **7.9998** bit|
 |Min Mean Bytes Value     |127.1881|       127.2189|           127.2328|
 |Max Mean Bytes Value     |127.8011|       127.7635 |          127.7525|
 |**Avg Mean Bytes Value**     |**127.5002**|       **127.5**  |            **127.5005**|
@@ -183,12 +183,12 @@ The benchmark was performed by analyzing a random sequence of bytes produced by 
 |Min Chi Squared min(𝛘<sup>2</sup>)       |  180.5727  |   170.2892  |   182.4148 |
 |Max Chi Squared max(𝛘<sup>2</sup>)       |  343.9544  |   348.4759  |   356.5312 |
 |**Avg Chi Squared avg(𝛘<sup>2</sup>)**       |  **254.9292**  |   **255.0607**  |   **254.7649** |
-|Min Coef.Variation min(<sup>σ</sup>/<sub>μ</sub>)    |    1.3438  |     1.3049  |     1.3506 |
-|Max Coef.Variation max(<sup>σ</sup>/<sub>μ</sub>)    |    1.8546  |     1.8668  |     1.8882 |
-|**Avg Coef.Variation avg(<sup>σ</sup>/<sub>μ</sub>)**    |    **1.5951**  |     **1.5955**  |     **1.5946** |
-|Min Entropy            |    7.9998  |     7.9997  |     7.9997 |
-|Max Entropy            |    7.9999  |     7.9999  |     7.9999 |
-|**Avg Entropy**            |    **7.9998**  |     **7.9998**  |     **7.9998** |
+|Min Coef.Variation min(<sup>σ</sup>/<sub>μ</sub>)    |    1.3438%  |     1.3049%  |     1.3506% |
+|Max Coef.Variation max(<sup>σ</sup>/<sub>μ</sub>)    |    1.8546%  |     1.8668%  |     1.8882% |
+|**Avg Coef.Variation avg(<sup>σ</sup>/<sub>μ</sub>)**    |    **1.5951%**  |     **1.5955%**  |     **1.5946%** |
+|Min Entropy            |    7.9998 bit |     7.9997 bit |     7.9997 bit|
+|Max Entropy            |    7.9999 bit |     7.9999 bit |     7.9999 bit|
+|**Avg Entropy**            |    **7.9998** bit |     **7.9998**  bit|     **7.9998** bit|
 |Min Mean Bytes Value   |  127.2367  |   127.2113  |   127.2328 |
 |Max Mean Bytes Value   |  127.8227  |   127.7724  |   127.7525 |
 |**Avg Mean Bytes Value**   |  **127.5004**  |   **127.4988**  |   **127.5005** |
