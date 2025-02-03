@@ -175,17 +175,35 @@ The benchmark was performed by analyzing a random sequence of bytes produced by 
 
 
 #### 3) Input size: 1,000,000 bytes, content: random bytes
-|**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
-|:---                                       |---:        |---:          |---:       |
-|Min Standard Dev. min(σ)                   |49.570      |50.401        |49.406    |
-|Max Standard Dev. max(σ)                   |77.763      |75.819        |78.532      |
-|**Average Standard Dev. avg(σ)**           |**62.310**  |**62.316**    |**62.320**|
-|Min Chi Squared min(𝛘<sup>2</sup>)         |161.035     |166.481       |159.968   |
-|Max Chi Squared max(𝛘<sup>2</sup>)         |396.303     |376.735       |404.176   |
-|**Average Chi squared avg(𝛘<sup>2</sup>)** |**254.944** |**254.991**   |**255.030** |
-|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |1.269%  |1.290%     |1.265% |
-|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |1.991%  |1.941%     |2.010% |
-|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |**1.595%** |**1.595%** |
+|**Index**                      |**zci65**  |**Salsa20** |**Benchmark**|
+|:---                           |---:       |---:        |---:         |
+|Min Standard Deviation min(σ)|   52.4911  |    50.9746  |    52.7582 |
+|Max Standard Deviation max(σ)|   72.4453  |    72.92    |    73.7579 |
+|**Avg Standard Deviation avg(σ)**|   **62.3085**  |    **62.3241**  |    **62.2891** |
+|Min Chi Squared min(𝛘<sup>2</sup>)       |  180.5727  |   170.2892  |   182.4148 |
+|Max Chi Squared max(𝛘<sup>2</sup>)       |  343.9544  |   348.4759  |   356.5312 |
+|**Avg Chi Squared avg(𝛘<sup>2</sup>)**       |  **254.9292**  |   **255.0607**  |   **254.7649** |
+|Min Coef.Variation min(<sup>σ</sup>/<sub>μ</sub>)    |    1.3438  |     1.3049  |     1.3506 |
+|Max Coef.Variation max(<sup>σ</sup>/<sub>μ</sub>)    |    1.8546  |     1.8668  |     1.8882 |
+|**Avg Coef.Variation avg(<sup>σ</sup>/<sub>μ</sub>)**    |    **1.5951**  |     **1.5955**  |     **1.5946** |
+|Min Entropy            |    7.9998  |     7.9997  |     7.9997 |
+|Max Entropy            |    7.9999  |     7.9999  |     7.9999 |
+|**Avg Entropy**            |    **7.9998**  |     **7.9998**  |     **7.9998** |
+|Min Mean Bytes Value   |  127.2367  |   127.2113  |   127.2328 |
+|Max Mean Bytes Value   |  127.8227  |   127.7724  |   127.7525 |
+|**Avg Mean Bytes Value**   |  **127.5004**  |   **127.4988**  |   **127.5005** |
+|Min π 2D              |    3.1276  |     3.1238  |     3.1215 |
+|Max π 2D              |    3.1559  |     3.1557  |     3.1604 |
+|**Avg π 2D**              |    **3.1416**  |     **3.1417**  |     **3.1416** |
+|Min π 3D              |    3.1047  |     3.1057  |     3.1021 |
+|Max π 3D              |    3.1736  |     3.1763  |     3.1759 |
+|**Avg π 3D**              |    **3.1416**  |     **3.1417**  |     **3.1416** |
+|Min collisions         |    0       |     0       |     0      |
+|Max collisions         |    20      |    18       |    20      |
+|**Avg collisions**         |    **7.334**   |     **7.2493**  |     **7.2348** |
+|Min Mean 2Bytes Value  |32699.8499  | 32693.2708  | 32698.8275 |
+|Max Mean 2Bytes Value  |32850.421   | 32837.4988  | 32832.3744 |
+|**Avg Mean 2Bytes Value**  |**32767.6128**  | **32767.1987**  | **32767.6308** |
 
 ### Conclusions
 zci65 can be considered a valid alternative in implementations that require a fast and secure streaming encryption algorithm.
