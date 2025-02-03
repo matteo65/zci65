@@ -143,17 +143,36 @@ The benchmark was performed by analyzing a random sequence of bytes produced by 
 
 
 #### 2) Input size: 1,000,000 bytes, all set to 0xFF 
-|**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
-|:---                                       |---:        |---:          |---:       |
-|Min Standard Dev. min(σ)                   |48.189      |49.544        |49.406    |
-|Max Standard Dev. max(σ)                   |77.811      |75.912        |78.532     |
-|**Average Standard Dev. avg(σ)**           |**62.311**  |**62.318**    |**62.320** |
-|Min Chi Squared min(𝛘<sup>2</sup>)         |152.186     |160.862       |159.968    |
-|Max Chi Squared max(𝛘<sup>2</sup>)         |396.791     |377.662       |404.176    |
-|**Average Chi squared avg(𝛘<sup>2</sup>)** |**254.95**  |**255.013**   |**255.030**|
-|Min Coef.of Variation min(<sup>σ</sup>/<sub>μ</sub>)          |1.234%  |1.268%     |1.265% |
-|Max Coef.of Variation max(<sup>σ</sup>/<sub>μ</sub>)          |1.992%  |1.943%     |2.010% |
-|**Average Coef. of Variation avg(<sup>σ</sup>/<sub>μ</sub>)** |**1.595%** |**1.595%** |**1.595%** |
+|**Index**                      |**zci65**  |**Salsa20** |**Benchmark**|
+|:---                           |---:       |---:        |---:         |
+|Min Standard Deviation min(σ)  |  51.582   | 51.7363    |  52.7582    |
+|Max Standard Deviation max(σ)  | 73.843    | 72.5432    |  73.7579    |
+|**Avg Standard Deviation avg(σ)**  | **62.3194**   | **62.3333**    |  **62.2891**    |
+|Min Chi Squared min(𝛘<sup>2</sup>)| 174.3718|  175.4168  | 182.4148 |
+|Max Chi Squared max(𝛘<sup>2</sup>)| 357.354 |  344.8842  | 356.5312 |
+|**Avg Chi Squared avg(𝛘<sup>2</sup>)**| **255.0224**|  **255.1253**  | **254.7649** |
+|Min Coef.Variation min(<sup>σ</sup>/<sub>μ</sub>) | 1.3205 | 1.3245  |    1.3506 |
+|Max Coef.Variation max(<sup>σ</sup>/<sub>μ</sub>) | 1.8904 | 1.8571  |    1.8882 |
+|**Avg Coef.Variation avg(<sup>σ</sup>/<sub>μ</sub>)** | **1.5954** | **1.5957**  |    **1.5946** |
+|Min Entropy                |7.9997  |       7.9998   |          7.9997|
+|Max Entropy                |7.9999  |       7.9999   |          7.9999|
+|**Avg Entropy**                |**7.9998**  |       **7.9998**   |          **7.9998**|
+|Min Mean Bytes Value     |127.1881|       127.2189|           127.2328|
+|Max Mean Bytes Value     |127.8011|       127.7635 |          127.7525|
+|**Avg Mean Bytes Value**     |**127.5002**|       **127.5**  |            **127.5005**|
+|Min π 2D                 | 3.1274 |        3.1266 |            3.1215|
+|Max π 2D                 | 3.1615 |        3.1554 |            3.1604|
+|**Avg π 2D**                 | **3.1416** |        **3.1416** |            **3.1416**|
+|Min π 3D                 | 3.1086 |        3.1107 |            3.1021|
+|Max π 3D                 | 3.1809 |        3.1769 |            3.1759|
+|**Avg π 3D**                 | **3.1416** |        **3.1417** |            **3.1416**|
+|Min collisions 32     |     0      |        0           |       0|
+|Max collisions 32     |    21      |       20           |      20|
+|**Avg collisions 32**     |     **7.285**  |        **7.2333**      |       **7.2348**|
+|Min Mean 2Bytes Value  |32687.379  |       32695.222    |   32698.8 275|
+|Max Mean 2Bytes Value  |32844.9091 |       32835.2223   |   32832.3744|
+|**Avg Mean 2Bytes Value**  |**32767.5494** |       **32767.5009**   |   **32767.6308**|
+
 
 #### 3) Input size: 1,000,000 bytes, content: random bytes
 |**Index**                                  |**zci65**   |**salsa20**   |**benchmark**  |
