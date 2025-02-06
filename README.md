@@ -37,7 +37,7 @@ In order to establish the level of randomness of the output produced by the encr
 #### Byte Frequency Tests
 This group focuses on analyzing the frequency of byte occurrences within the data, without considering the order in which the bytes appear. These tests are designed to assess various statistical properties of the byte frequency. The tests in this group are:
 
-1.	**Variance σ2**: This test calculates the variance of the byte frequencies, measuring the spread or dispersion of frequencies from their mean.
+1.	**Variance σ<sup>2</sup>**: This test calculates the variance of the byte frequencies, measuring the spread or dispersion of frequencies from their mean.
 2.	**Standard Deviation σ**: The standard deviation is a common statistical measure that shows how much the byte frequencies deviate from the average frequency. It is the square root of the variance.
 3.	**Coefficient of Variation σ/μ**: This is the ratio of the standard deviation to the mean frequency, providing a normalized measure of the dispersion relative to the average frequency.
 4.	**Chi-Square 𝛘2**: This statistical test compares the observed byte frequencies to an expected uniform distribution, assessing whether the data deviates from randomness.
